@@ -1,0 +1,8 @@
+
+I am writing this file from within the notebook. 
+
+I can write whatever I want and it will be written to a text file in the specified folder. 
+
+If I don't write a filepath, this text file will be written into the home directory of the notebook.
+
+Note that the '~' indicates my HOME directory - it can replace /Users/myang/, which is the home directory of my computer.
