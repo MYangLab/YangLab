@@ -1,0 +1,1234 @@
+<!DOCTYPE html>
+<head>
+    
+<script>
+    var bootstrappedData = {
+        displayName: "ALD4",
+        formatName: "YOR374W",
+        locusId: "1285353",
+        locusLink: "/locus/S000005901",
+        locusData: {"aliases": [{"category": "DNA accession ID", "source": {"display_name": "GenBank/EMBL/DDBJ"}, "id": 514994, "link": "https://www.ncbi.nlm.nih.gov/nuccore/Z75282", "display_name": "Z75282", "protein": true, "references": []}, {"category": "Gene ID", "source": {"display_name": "BioGRID"}, "id": 514996, "link": "https://thebiogrid.org/34757/summary/saccharomyces-cerevisiae", "display_name": "34757", "protein": true, "references": []}, {"category": "RefSeq nucleotide version ID", "source": {"display_name": "NCBI"}, "id": 514999, "link": "https://www.ncbi.nlm.nih.gov/nuccore/NM_001183794.1", "display_name": "NM_001183794.1", "protein": true, "references": []}, {"category": "Protein GI", "source": {"display_name": "GenBank/EMBL/DDBJ"}, "id": 515000, "link": "https://www.ncbi.nlm.nih.gov/protein/1420808", "display_name": "1420808", "protein": true, "references": []}, {"category": "Protein GI", "source": {"display_name": "GenBank/EMBL/DDBJ"}, "id": 515001, "link": "https://www.ncbi.nlm.nih.gov/protein/2506349", "display_name": "2506349", "protein": true, "references": []}, {"category": "Protein GI", "source": {"display_name": "GenBank/EMBL/DDBJ"}, "id": 515002, "link": "https://www.ncbi.nlm.nih.gov/protein/6324950", "display_name": "6324950", "protein": true, "references": []}, {"category": "TPA protein version ID", "source": {"display_name": "NCBI"}, "id": 515003, "link": "https://www.ncbi.nlm.nih.gov/protein/DAA11133.1", "display_name": "DAA11133.1", "protein": true, "references": []}, {"category": "Protein version ID", "source": {"display_name": "GenBank/EMBL/DDBJ"}, "id": 515008, "link": "https://www.ncbi.nlm.nih.gov/protein/CAA99705.1", "display_name": "CAA99705.1", "protein": true, "references": []}, {"category": "Alias", "source": {"display_name": "SGD"}, "id": 514988, "link": null, "display_name": "ALDH2", "references": [{"pubmed_id": 9473035, "id": 615437, "year": 1998, "urls": [{"link": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC106960/", "display_name": "PMC full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pubmed/9473035", "display_name": "PubMed"}], "link": "/reference/S000050673", "display_name": "Wang X, et al. (1998)", "citation": "Wang X, et al. (1998) Molecular cloning, characterization, and potential roles of cytosolic and mitochondrial aldehyde dehydrogenases in ethanol metabolism in Saccharomyces cerevisiae. J Bacteriol 180(4):822-30"}]}, {"category": "Alias", "source": {"display_name": "SGD"}, "id": 514989, "link": null, "display_name": "ALD7", "references": [{"pubmed_id": 9150920, "id": 632630, "year": 1997, "urls": [{"link": "http://dx.doi.org/10.1002/elps.1150180316", "display_name": "DOI full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pubmed/9150920", "display_name": "PubMed"}], "link": "/reference/S000044867", "display_name": "Larsson T, et al. (1997)", "citation": "Larsson T, et al. (1997) Identification of two-dimensional gel electrophoresis resolved yeast proteins by matrix-assisted laser desorption ionization mass spectrometry. Electrophoresis 18(3-4):418-23"}]}, {"category": "NCBI protein name", "source": {"display_name": "SGD"}, "id": 514990, "link": null, "display_name": "aldehyde dehydrogenase (NADP(+)) ALD4", "references": []}, {"category": "Gene ID", "source": {"display_name": "NCBI"}, "id": 514992, "link": "http://www.ncbi.nlm.nih.gov/gene/854556", "display_name": "854556", "protein": true, "references": []}, {"category": "Gene ID", "source": {"display_name": "DIP"}, "id": 514998, "link": "http://dip.doe-mbi.ucla.edu/dip/Browse.cgi?PK=4053&D=1", "display_name": "4053", "protein": true, "references": []}, {"category": "PomBase ID", "source": {"display_name": "PomBase"}, "id": 515006, "link": "http://www.pombase.org/spombe/result/SPAC9E9.09c", "display_name": "SPAC9E9.09c", "protein": true, "references": []}, {"category": "UniProtKB ID", "source": {"display_name": "UniProtKB"}, "id": 515007, "link": "http://www.uniprot.org/uniprot/P46367", "display_name": "P46367", "protein": true, "references": []}, {"category": "RefSeq protein version ID", "source": {"display_name": "NCBI"}, "id": 515004, "link": "https://www.ncbi.nlm.nih.gov/protein/NP_015019.1", "display_name": "NP_015019.1", "protein": true, "references": []}, {"category": "UniParc ID", "source": {"display_name": "UniParc"}, "id": 515005, "link": "http://www.uniprot.org/uniparc/UPI000004F972", "display_name": "UPI000004F972", "protein": true, "references": []}, {"category": "LoQAtE ID", "source": {"display_name": "LoQAtE"}, "id": 515009, "link": "http://www.weizmann.ac.il/molgen/loqate/gene/view/661", "display_name": "661", "protein": true, "references": []}, {"category": "PANTHER ID", "source": {"display_name": "PANTHER"}, "id": 664313, "link": "http://www.pantherdb.org/panther/family.do?clsAccession=PTHR11699:SF268", "display_name": "PTHR11699:SF268", "protein": true, "references": []}, {"category": "EC number", "source": {"display_name": "ExPASy"}, "id": 666603, "link": "http://www.expasy.org/enzyme/1.2.1.5", "display_name": "1.2.1.5", "protein": true, "references": []}], "disease_overview": {"date_last_reviewed": null, "htp_disease_terms": [], "computational_annotation_count": 0, "manual_disease_terms": []}, "paralogs": [], "protein_overview": {"molecular_weight": 56721.1, "median_abs_dev_value": 7817, "pi": 6.72, "length": 519, "median_value": 22200}, "qualifier": "Verified", "link": "/locus/S000005901", "qualities": {"feature_type": {"references": []}, "description": {"references": [{"pubmed_id": 10407263, "id": 649448, "year": 1999, "urls": [{"link": "http://dx.doi.org/10.1002/(SICI)1097-0061(199907)15:10A<829::AID-YEA423>3.0.CO;2-9", "display_name": "DOI full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pubmed/10407263", "display_name": "PubMed"}], "link": "/reference/S000039810", "display_name": "Navarro-Avi\u00f1o JP, et al. (1999)", "citation": "Navarro-Avi\u00f1o JP, et al. (1999) A proposal for nomenclature of aldehyde dehydrogenases in Saccharomyces cerevisiae and characterization of the stress-inducible ALD2 and ALD3 genes. Yeast 15(10A):829-42"}, {"pubmed_id": 9675847, "id": 610336, "year": 1998, "urls": [{"link": "http://dx.doi.org/10.1111/j.1574-6968.1998.tb13063.x", "display_name": "DOI full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pubmed/9675847", "display_name": "PubMed"}], "link": "/reference/S000052397", "display_name": "Tessier WD, et al. (1998)", "citation": "Tessier WD, et al. (1998) Identification and disruption of the gene encoding the K(+)-activated acetaldehyde dehydrogenase of Saccharomyces cerevisiae. FEMS Microbiol Lett 164(1):29-34"}, {"pubmed_id": 17761666, "id": 497174, "year": 2007, "urls": [{"link": "http://dx.doi.org/10.1074/mcp.M700098-MCP200", "display_name": "DOI full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pubmed/17761666", "display_name": "PubMed"}], "link": "/reference/S000123951", "display_name": "Reinders J, et al. (2007)", "citation": "Reinders J, et al. (2007) Profiling phosphoproteins of yeast mitochondria reveals a role of phosphorylation in assembly of the ATP synthase. Mol Cell Proteomics 6(11):1896-906"}, {"pubmed_id": 23454351, "id": 389409, "year": 2013, "urls": [{"link": "http://dx.doi.org/10.1016/j.bbagen.2013.02.010", "display_name": "DOI full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3669398/", "display_name": "PMC full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pubmed/23454351", "display_name": "PubMed"}], "link": "/reference/S000152629", "display_name": "Mukhopadhyay A, et al. (2013)", "citation": "Mukhopadhyay A, et al. (2013) Mitochondrial NAD dependent aldehyde dehydrogenase either from yeast or human replaces yeast cytoplasmic NADP dependent aldehyde dehydrogenase for the aerobic growth of yeast on ethanol. Biochim Biophys Acta 1830(6):3391-8"}]}, "qualifier": {"references": []}, "id": {"references": []}, "name_description": {"references": [{"pubmed_id": 10407263, "id": 649448, "year": 1999, "urls": [{"link": "http://dx.doi.org/10.1002/(SICI)1097-0061(199907)15:10A<829::AID-YEA423>3.0.CO;2-9", "display_name": "DOI full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pubmed/10407263", "display_name": "PubMed"}], "link": "/reference/S000039810", "display_name": "Navarro-Avi\u00f1o JP, et al. (1999)", "citation": "Navarro-Avi\u00f1o JP, et al. (1999) A proposal for nomenclature of aldehyde dehydrogenases in Saccharomyces cerevisiae and characterization of the stress-inducible ALD2 and ALD3 genes. Yeast 15(10A):829-42"}]}, "gene_name": {"references": [{"pubmed_id": 10407263, "id": 649448, "year": 1999, "urls": [{"link": "http://dx.doi.org/10.1002/(SICI)1097-0061(199907)15:10A<829::AID-YEA423>3.0.CO;2-9", "display_name": "DOI full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pubmed/10407263", "display_name": "PubMed"}], "link": "/reference/S000039810", "display_name": "Navarro-Avi\u00f1o JP, et al. (1999)", "citation": "Navarro-Avi\u00f1o JP, et al. (1999) A proposal for nomenclature of aldehyde dehydrogenases in Saccharomyces cerevisiae and characterization of the stress-inducible ALD2 and ALD3 genes. Yeast 15(10A):829-42"}]}}, "references": [{"pubmed_id": 10407263, "id": 649448, "year": 1999, "urls": [{"link": "http://dx.doi.org/10.1002/(SICI)1097-0061(199907)15:10A<829::AID-YEA423>3.0.CO;2-9", "display_name": "DOI full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pubmed/10407263", "display_name": "PubMed"}], "link": "/reference/S000039810", "display_name": "Navarro-Avi\u00f1o JP, et al. (1999)", "citation": "Navarro-Avi\u00f1o JP, et al. (1999) A proposal for nomenclature of aldehyde dehydrogenases in Saccharomyces cerevisiae and characterization of the stress-inducible ALD2 and ALD3 genes. Yeast 15(10A):829-42"}, {"pubmed_id": 9675847, "id": 610336, "year": 1998, "urls": [{"link": "http://dx.doi.org/10.1111/j.1574-6968.1998.tb13063.x", "display_name": "DOI full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pubmed/9675847", "display_name": "PubMed"}], "link": "/reference/S000052397", "display_name": "Tessier WD, et al. (1998)", "citation": "Tessier WD, et al. (1998) Identification and disruption of the gene encoding the K(+)-activated acetaldehyde dehydrogenase of Saccharomyces cerevisiae. FEMS Microbiol Lett 164(1):29-34"}, {"pubmed_id": 17761666, "id": 497174, "year": 2007, "urls": [{"link": "http://dx.doi.org/10.1074/mcp.M700098-MCP200", "display_name": "DOI full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pubmed/17761666", "display_name": "PubMed"}], "link": "/reference/S000123951", "display_name": "Reinders J, et al. (2007)", "citation": "Reinders J, et al. (2007) Profiling phosphoproteins of yeast mitochondria reveals a role of phosphorylation in assembly of the ATP synthase. Mol Cell Proteomics 6(11):1896-906"}, {"pubmed_id": 23454351, "id": 389409, "year": 2013, "urls": [{"link": "http://dx.doi.org/10.1016/j.bbagen.2013.02.010", "display_name": "DOI full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3669398/", "display_name": "PMC full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pubmed/23454351", "display_name": "PubMed"}], "link": "/reference/S000152629", "display_name": "Mukhopadhyay A, et al. (2013)", "citation": "Mukhopadhyay A, et al. (2013) Mitochondrial NAD dependent aldehyde dehydrogenase either from yeast or human replaces yeast cytoplasmic NADP dependent aldehyde dehydrogenase for the aerobic growth of yeast on ethanol. Biochim Biophys Acta 1830(6):3391-8"}, {"pubmed_id": 12794936, "id": 551180, "year": 2003, "urls": [{"link": "http://dx.doi.org/10.1002/yea.991", "display_name": "DOI full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pubmed/12794936", "display_name": "PubMed"}], "link": "/reference/S000073562", "display_name": "Aranda A and del Olmo Ml Ml (2003)", "citation": "Aranda A and del Olmo Ml Ml (2003) Response to acetaldehyde stress in the yeast Saccharomyces cerevisiae involves a strain-dependent regulation of several ALD genes and is mediated by the general stress response pathway. Yeast 20(8):747-59"}, {"pubmed_id": 16914749, "id": 514607, "year": 2006, "urls": [{"link": "http://dx.doi.org/10.1128/MCB.02450-05", "display_name": "DOI full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1592823/", "display_name": "PMC full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pubmed/16914749", "display_name": "PubMed"}], "link": "/reference/S000117952", "display_name": "Larochelle M, et al. (2006)", "citation": "Larochelle M, et al. (2006) Oxidative stress-activated zinc cluster protein Stb5 has dual activator/repressor functions required for pentose phosphate pathway regulation and NADPH production. Mol Cell Biol 26(17):6690-701"}, {"pubmed_id": 10409655, "id": 633040, "year": 1999, "urls": [{"link": "http://dx.doi.org/10.1074/jbc.274.30.21044", "display_name": "DOI full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pubmed/10409655", "display_name": "PubMed"}], "link": "/reference/S000044728", "display_name": "Boubekeur S, et al. (1999)", "citation": "Boubekeur S, et al. (1999) A mitochondrial pyruvate dehydrogenase bypass in the yeast Saccharomyces cerevisiae. J Biol Chem 274(30):21044-8"}, {"pubmed_id": 16278455, "id": 526801, "year": 2005, "urls": [{"link": "http://dx.doi.org/10.1128/EC.4.11.1882-1891.2005", "display_name": "DOI full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1287862/", "display_name": "PMC full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pubmed/16278455", "display_name": "PubMed"}], "link": "/reference/S000087182", "display_name": "Vyas VK, et al. (2005)", "citation": "Vyas VK, et al. (2005) Repressors Nrg1 and Nrg2 regulate a set of stress-responsive genes in Saccharomyces cerevisiae. Eukaryot Cell 4(11):1882-91"}, {"pubmed_id": 11589696, "id": 572207, "year": 2001, "urls": [{"link": "http://dx.doi.org/10.1046/j.1432-1033.2001.02418.x", "display_name": "DOI full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pubmed/11589696", "display_name": "PubMed"}], "link": "/reference/S000066143", "display_name": "Boubekeur S, et al. (2001)", "citation": "Boubekeur S, et al. (2001) Participation of acetaldehyde dehydrogenases in ethanol and pyruvate metabolism of the yeast Saccharomyces cerevisiae. Eur J Biochem 268(19):5057-65"}, {"pubmed_id": 9473035, "id": 615437, "year": 1998, "urls": [{"link": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC106960/", "display_name": "PMC full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pubmed/9473035", "display_name": "PubMed"}], "link": "/reference/S000050673", "display_name": "Wang X, et al. (1998)", "citation": "Wang X, et al. (1998) Molecular cloning, characterization, and potential roles of cytosolic and mitochondrial aldehyde dehydrogenases in ethanol metabolism in Saccharomyces cerevisiae. J Bacteriol 180(4):822-30"}, {"pubmed_id": 10585550, "id": 610582, "year": 1999, "urls": [{"link": "http://dx.doi.org/10.1111/j.1574-6968.1999.tb08856.x", "display_name": "DOI full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pubmed/10585550", "display_name": "PubMed"}], "link": "/reference/S000052315", "display_name": "Kurita O and Nishida Y (1999)", "citation": "Kurita O and Nishida Y (1999) Involvement of mitochondrial aldehyde dehydrogenase ALD5 in maintenance of the mitochondrial electron transport chain in Saccharomyces cerevisiae. FEMS Microbiol Lett 181(2):281-7"}, {"pubmed_id": 16407407, "id": 525306, "year": 2006, "urls": [{"link": "http://dx.doi.org/10.1091/mbc.e05-08-0740", "display_name": "DOI full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1382330/", "display_name": "PMC full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pubmed/16407407", "display_name": "PubMed"}, {"link": "http://yfgdb.princeton.edu/cgi-bin/display.cgi?id=16407407&db=pmid", "display_name": "Reference supplement"}], "link": "/reference/S000114057", "display_name": "Zahedi RP, et al. (2006)", "citation": "Zahedi RP, et al. (2006) Proteomic analysis of the yeast mitochondrial outer membrane reveals accumulation of a subclass of preproteins. Mol Biol Cell 17(3):1436-50"}, {"pubmed_id": 9150920, "id": 632630, "year": 1997, "urls": [{"link": "http://dx.doi.org/10.1002/elps.1150180316", "display_name": "DOI full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pubmed/9150920", "display_name": "PubMed"}], "link": "/reference/S000044867", "display_name": "Larsson T, et al. (1997)", "citation": "Larsson T, et al. (1997) Identification of two-dimensional gel electrophoresis resolved yeast proteins by matrix-assisted laser desorption ionization mass spectrometry. Electrophoresis 18(3-4):418-23"}], "display_name": "ALD4", "regulation_overview": {"regulator_count": 17, "paragraph": {"date_edited": "2016-10-15", "references": [{"pubmed_id": 10407263, "id": 649448, "year": 1999, "urls": [{"link": "http://dx.doi.org/10.1002/(SICI)1097-0061(199907)15:10A<829::AID-YEA423>3.0.CO;2-9", "display_name": "DOI full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pubmed/10407263", "display_name": "PubMed"}], "link": "/reference/S000039810", "display_name": "Navarro-Avi\u00f1o JP, et al. (1999)", "citation": "Navarro-Avi\u00f1o JP, et al. (1999) A proposal for nomenclature of aldehyde dehydrogenases in Saccharomyces cerevisiae and characterization of the stress-inducible ALD2 and ALD3 genes. Yeast 15(10A):829-42"}, {"pubmed_id": 11589696, "id": 572207, "year": 2001, "urls": [{"link": "http://dx.doi.org/10.1046/j.1432-1033.2001.02418.x", "display_name": "DOI full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pubmed/11589696", "display_name": "PubMed"}], "link": "/reference/S000066143", "display_name": "Boubekeur S, et al. (2001)", "citation": "Boubekeur S, et al. (2001) Participation of acetaldehyde dehydrogenases in ethanol and pyruvate metabolism of the yeast Saccharomyces cerevisiae. Eur J Biochem 268(19):5057-65"}, {"pubmed_id": 12794936, "id": 551180, "year": 2003, "urls": [{"link": "http://dx.doi.org/10.1002/yea.991", "display_name": "DOI full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pubmed/12794936", "display_name": "PubMed"}], "link": "/reference/S000073562", "display_name": "Aranda A and del Olmo Ml Ml (2003)", "citation": "Aranda A and del Olmo Ml Ml (2003) Response to acetaldehyde stress in the yeast Saccharomyces cerevisiae involves a strain-dependent regulation of several ALD genes and is mediated by the general stress response pathway. Yeast 20(8):747-59"}, {"pubmed_id": 23454351, "id": 389409, "year": 2013, "urls": [{"link": "http://dx.doi.org/10.1016/j.bbagen.2013.02.010", "display_name": "DOI full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3669398/", "display_name": "PMC full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pubmed/23454351", "display_name": "PubMed"}], "link": "/reference/S000152629", "display_name": "Mukhopadhyay A, et al. (2013)", "citation": "Mukhopadhyay A, et al. (2013) Mitochondrial NAD dependent aldehyde dehydrogenase either from yeast or human replaces yeast cytoplasmic NADP dependent aldehyde dehydrogenase for the aerobic growth of yeast on ethanol. Biochim Biophys Acta 1830(6):3391-8"}], "text": "ALD4 encodes a mitochondrial acetaldehyde dehydrogenase that oxidizes acetaldehyde to acetate. Acetaldehyde is a highly toxic intermediate in several metabolic pathways, particularly in glucose fermentation. Efficient detoxification of acetaldehyde is therefore of critical importance to the overall cell metabolism. Acetaldehyde is a product of pyruvate decarboxylation and its removal involves the conversion to acetate, which can be subsequently turned into acetyl-CoA and used in energy production and biosynthesis, or excreted to the culture medium. Ald4p and its minor isoform  <a href='/locus/S000000875'>Ald5p</a> are involved in the mitochondrial pyruvate dehydrogenase bypass pathway, one of three metabolic pathways that convert pyruvate to acetyl-CoA. The enzyme is activated by K+ and thiols, and utilizes NAD+ or NADP+ as cofactors. Transcription of the ALD4 gene is highly repressed by glucose and induced during growth on ethanol and upon diauxic shift. The glucose repression has been shown to involve the cAMP-dependent protein kinase A (PKA), whereas the induction depends on the general stress response transcription factors  <a href='/locus/S000004640'>Msn2p</a> and  <a href='/locus/S000001545'>Msn4p</a>, and on the heat shock transcription factor  <a href='/locus/S000003041'>Hsf1p</a>. "}, "target_count": 0}, "main_strain": "S288C", "ecnumbers": [{"link": "/ecnumber/EC:1.2.1.5", "display_name": "1.2.1.5"}], "reference_mapping": {"633040": 7, "632630": 13, "525306": 12, "610336": 2, "497174": 3, "526801": 8, "572207": 9, "389409": 4, "615437": 10, "649448": 1, "610582": 11, "551180": 5, "514607": 6}, "description": "Mitochondrial aldehyde dehydrogenase; required for growth on ethanol and conversion of acetaldehyde to acetate; phosphorylated; activity is K+ dependent; utilizes NADP+ or NAD+ equally as coenzymes; expression is glucose repressed; can substitute for cytosolic NADP-dependent aldehyde dehydrogenase when directed to the cytosol; human homolog ALDH2 can complement yeast ald4 mutant", "pathways": [{"pathway": {"link": "http://pathway.yeastgenome.org/YEAST/new-image?type=PATHWAY&object=GLUCFERMEN-PWY&detail-level=2", "display_name": "superpathway of glucose fermentation"}}], "urls": [{"category": "LOCUS_PHENOTYPE_RESOURCES_MUTANT_STRAINS", "link": "http://www.addgene.org/browse/gene/854556/", "display_name": "Addgene Plasmids"}, {"category": "LOCUS_PROTEIN_HOMOLOGS", "link": "http://agd.vital-it.ch/Ashbya_gossypii/unisearch?type=Gene&q=YOR374W", "display_name": "AGD"}, {"category": "LOCUS_INTERACTION", "link": "http://thebiogrid.org/34757", "display_name": "BioGRID"}, {"category": "LOCUS_SEQUENCE_S288C", "link": "/blast-sgd?name=YOR374W", "display_name": "BLASTN"}, {"category": "LOCUS_SEQUENCE_OTHER_SPECIES", "link": "/blast-fungal?name=YOR374W", "display_name": "BLASTN vs. fungi"}, {"category": "LOCUS_SEQUENCE_S288C", "link": "/blast-sgd?name=YOR374W&type=protein", "display_name": "BLASTP"}, {"category": "LOCUS_PROTEIN_HOMOLOGS", "link": "http://blast.ncbi.nlm.nih.gov/Blast.cgi?ALIGNMENTS=50&AUTO_FORMAT=Semiauto&CDD_SEARCH=on&CLIENT=web&COMPOSITION_BASED_STATISTICS=on&DATABASE=nr&DESCRIPTIONS=100&EXPECT=10&FILTER=L&FORMAT_OBJECT=Alignment&FORMAT_TYPE=HTML&GAPCOSTS=11+1&I_THRESH=0.001&LAYOUT=TwoWindows&MATRIX_NAME=BLOSUM62&NCBI_GI=on&PAGE=Proteins&PROGRAM=blastp&SET_DEFAULTS.x=29&SET_DEFAULTS.y=13&SHOW_LINKOUT=on&SHOW_OVERVIEW=on&WORD_SIZE=3&END_OF_HTTPGET=Yes&QUERY=NP_015019.1", "display_name": "BLASTP at NCBI"}, {"category": "LOCUS_SEQUENCE_OTHER_SPECIES", "link": "http://blast.ncbi.nlm.nih.gov/Blast.cgi?ALIGNMENTS=50&AUTO_FORMAT=Semiauto&CDD_SEARCH=on&CLIENT=web&COMPOSITION_BASED_STATISTICS=on&DATABASE=nr&DESCRIPTIONS=100&EXPECT=10&FILTER=L&FORMAT_OBJECT=Alignment&FORMAT_TYPE=HTML&GAPCOSTS=11+1&I_THRESH=0.001&LAYOUT=TwoWindows&MATRIX_NAME=BLOSUM62&NCBI_GI=on&PAGE=Proteins&PROGRAM=blastp&SET_DEFAULTS.x=29&SET_DEFAULTS.y=13&SHOW_LINKOUT=on&SHOW_OVERVIEW=on&WORD_SIZE=3&END_OF_HTTPGET=Yes&QUERY=NP_015019.1", "display_name": "BLASTP at NCBI"}, {"category": "LOCUS_SEQUENCE_OTHER_SPECIES", "link": "/blast-fungal?name=YOR374W&type=protein", "display_name": "BLASTP vs. fungi"}, {"category": "LOCUS_EXPRESSION", "link": "http://moment.utmb.edu/cgi-bin/sceptrans.cgi?locus=YOR374W", "display_name": "Cell cycle and metabolic oscillation"}, {"category": "LOCUS_EXPRESSION", "link": "http://webapps.fhcrc.org/labs/noble/cellcycle/getOrf.php?orf=YOR374W", "display_name": "Cell cycle transcript profile"}, {"category": "LOCUS_INTERACTION", "link": "http://wodaklab.org/cyc2008/searchable?q=YOR374W", "display_name": "CYC2008"}, {"category": "LOCUS_EXPRESSION", "link": "http://cyclebase.org/CyclebasePage?type=4932&id=YOR374W", "display_name": "Cyclebase"}, {"category": "LOCUS_PROEIN_LOCALIZATION", "link": "http://cyclops.ccbr.utoronto.ca/SEARCH/search.pl?imagetype=overlay&loctype=pct&gene=YOR374W", "display_name": "CYCLoPs"}, {"category": "LOCUS_SEQUENCE_S288C", "link": "/primer3?name=YOR374W", "display_name": "Design Primers"}, {"category": "LOCUS_EXPRESSION", "link": "https://www.dhitsmayalab.tk/firstPage.php", "display_name": "dHITS"}, {"category": "LOCUS_PHENOTYPE_RESOURCES_PHENOTYPE_RESOURCES", "link": "https://www.dhitsmayalab.tk/firstPage.php", "display_name": "dHITS"}, {"category": "LOCUS_PROEIN_LOCALIZATION", "link": "https://www.dhitsmayalab.tk/firstPage.php", "display_name": "dHITS"}, {"category": "LOCUS_INTERACTION", "link": "http://dip.doe-mbi.ucla.edu/dip/Browse.cgi?PK=4053&D=1", "display_name": "DIP"}, {"category": "LOCUS_PHENOTYPE_RESOURCES_MUTANT_STRAINS", "link": "https://dnasu.org/DNASU/Home.do", "display_name": "DNASU Plasmids"}, {"category": "LOCUS_LSP_RESOURCES", "link": "http://www.expasy.org/enzyme/1.2.1.5", "display_name": "E.C.1.2.1.5"}, {"category": "LOCUS_LSP_RESOURCES", "link": "http://www.ncbi.nlm.nih.gov/gene/854556", "display_name": "Entrez Gene"}, {"category": "LOCUS_LSP_RESOURCES", "link": "http://www.ncbi.nlm.nih.gov:80/entrez/viewer.fcgi?val=NP_015019.1", "display_name": "Entrez RefSeq Protein"}, {"category": "LOCUS_PHENOTYPE_RESOURCES_PHENOTYPE_RESOURCES", "link": "http://chemogenomics.med.utoronto.ca/fitdb/fitdb.cgi?query=YOR374W", "display_name": "FitDB"}, {"category": "LOCUS_EXPRESSION", "link": "http://func.med.harvard.edu/yeast/genes/list_functional_scores/S000005901", "display_name": "FuncBase"}, {"category": "LOCUS_PROTEIN_HOMOLOGS", "link": "http://www.broad.mit.edu/cgi-bin/regev/orthogroups/show_orthogroup.cgi?orf=YOR374W", "display_name": "Fungal Orthogroups"}, {"category": "LOCUS_LSP_RESOURCES", "link": "http://fungidb.org/fungidb/app/record/gene/YOR374W", "display_name": "FungiDB"}, {"category": "LOCUS_PROTEIN_HOMOLOGS", "link": "http://fungidb.org/fungidb/app/record/gene/YOR374W", "display_name": "FungiDB"}, {"category": "LOCUS_INTERACTION", "link": "http://genemania.org/link?o=4932&g=YOR374W", "display_name": "GeneMANIA"}, {"category": "LOCUS_EXPRESSION", "link": "http://www.germonline.org/Saccharomyces_cerevisiae/geneview?gene=YOR374W", "display_name": "GermOnline"}, {"category": "LOCUS_PROTEIN_PROTEIN_DATABASES", "link": "http://gpmdb.thegpm.org/~/dblist_label/label=YOR374W", "display_name": "GPMDB"}, {"category": "LOCUS_PHENOTYPE_RESOURCES_PHENOTYPE_RESOURCES", "link": "http://chemogenomics.pharmacy.ubc.ca/HIPHOP/index.php?q=YOR374W", "display_name": "HIPHOP Chemogenomics"}, {"category": "LOCUS_PHENOTYPE_RESOURCES_PHENOTYPE_RESOURCES", "link": "http://www.fmi.ch/hiphop/profile/gene?ID=YOR374W", "display_name": "HIP HOP Profiles"}, {"category": "LOCUS_INTERACTION", "link": "http://imp.princeton.edu/predictions/gene/?network=yeast-context-global&gene=YOR374W", "display_name": "IMP"}, {"category": "LOCUS_INTERACTION", "link": "http://www.interologfinder.org/simpleIfWS?taxid=4932&genes=854556", "display_name": "InterologFinder"}, {"category": "LOCUS_PROEIN_LOCALIZATION", "link": "http://www.weizmann.ac.il/molgen/loqate/YOR374W", "display_name": "LoQAtE"}, {"category": "LOCUS_PHENOTYPE_RESOURCES_PHENOTYPE_RESOURCES", "link": "http://ralser.charite.de/metabogenecards/Chr_15/YOR374W.html", "display_name": "MetaboGeneCard"}, {"category": "LOCUS_PROTEIN_PROTEIN_DATABASES", "link": "http://pfam.xfam.org/protein/P46367", "display_name": "Pfam domains"}, {"category": "LOCUS_PROTEIN_MODIFICATIONS", "link": "http://www.phosphogrid.org/sites/34757", "display_name": "PhosphoGRID"}, {"category": "LOCUS_PROTEIN_MODIFICATIONS", "link": "http://www.sbeams.org/devDC/sbeams/cgi/Glycopeptide/peptideSearch.cgi?action=Show_hits_form;search_type=accession;organism=sce;search_term=YOR374W", "display_name": "PhosphoPep"}, {"category": "LOCUS_PROTEIN_HOMOLOGS", "link": "http://phylomedb.org/?q=search_tree&seqid=YOR374W", "display_name": "PhylomeDB"}, {"category": "LOCUS_PHENOTYPE_RESOURCES_MUTANT_STRAINS", "link": "http://plasmid.med.harvard.edu/PLASMID/RefseqSearchContinue.do?cdna=true&shrna=true&genomicfragment=true&tfbindsite=true&genome=true&pagesize=50&species=Saccharomyces%20cerevisiae&refseqType=cDNA&searchType=SGD%20Number&searchString=YOR374W", "display_name": "PlasmID"}, {"category": "LOCUS_PROTEIN_HOMOLOGS", "link": "http://www.pombase.org/spombe/result/SPAC9E9.09c", "display_name": "PomBase"}, {"category": "LOCUS_PROTEIN_HOMOLOGS", "link": "http://ppod.princeton.edu/cgi-bin/ppod.cgi?an=2&s=S000005901", "display_name": "P-POD"}, {"category": "LOCUS_PHENOTYPE_RESOURCES_PHENOTYPE_RESOURCES", "link": "http://prophecy.lundberg.gu.se/SGDLink.aspx?ORF=YOR374W", "display_name": "PROPHECY"}, {"category": "LOCUS_SEQUENCE_S288C", "link": "/restrictionMapper?seqname=YOR374W", "display_name": "Restriction Fragment Map"}, {"category": "LOCUS_SEQUENCE_S288C", "link": "/seqTools?seqname=YOR374W&emboss=restrict", "display_name": "Restriction Fragment Sizes"}, {"category": "LOCUS_PHENOTYPE_RESOURCES_PHENOTYPE_RESOURCES", "link": "http://scmd.gi.k.u-tokyo.ac.jp/datamine/ViewPhoto.do?orf=YOR374W", "display_name": "SCMD"}, {"category": "LOCUS_PHENOTYPE_RESOURCES_PHENOTYPE_RESOURCES", "link": "http://www.rothsteinlab.com/tools/screenTroll", "display_name": "ScreenTroll"}, {"category": "LOCUS_LSP_RESOURCES", "link": "http://www.ncbi.nlm.nih.gov/gquery/gquery.fcgi?&term=%28YOR374W%5bTEXT%3anoexp%5d%20AND%20cerevisiae%5bALL%5d%29", "display_name": "Search all NCBI"}, {"category": "LOCUS_SEQUENCE_S288C", "link": "/seqTools?seqname=YOR374W&emboss=remap", "display_name": "Six-Frame Translation"}, {"category": "LOCUS_EXPRESSION", "link": "https://spell.yeastgenome.org/search/show_results?search_string=YOR374W", "display_name": "SPELL"}, {"category": "LOCUS_SEQUENCE_OTHER_STRAINS", "link": "/strainAlignment?locus=YOR374W", "display_name": "Strain Alignment"}, {"category": "LOCUS_PROTEIN_PROTEIN_DATABASES", "link": "http://supfam.org/SUPERFAMILY/cgi-bin/gene.cgi?genome=sc&seqid=YOR374W", "display_name": "SUPERFAMILY"}, {"category": "LOCUS_INTERACTION", "link": "http://thecellmap.org/?q=YOR374W", "display_name": "TheCellMap"}, {"category": "LOCUS_PHENOTYPE_RESOURCES_MUTANT_STRAINS", "link": "http://www.thermoscientificbio.com/biology-overview/?term=YOR374W&category=Non%20Mammalian", "display_name": "Thermo Scientific"}, {"category": "LOCUS_PROTEIN_PROTEIN_DATABASES", "link": "http://www.weizmann.ac.il/molgen/TopologYeast/search-results/YOR374W", "display_name": "TopologYeast"}, {"category": "LOCUS_LSP_RESOURCES", "link": "http://www.uniprot.org/uniparc/UPI000004F972", "display_name": "UniParc"}, {"category": "LOCUS_LSP_RESOURCES", "link": "http://www.uniprot.org/uniprot/P46367", "display_name": "UniProtKB"}, {"category": "LOCUS_SEQUENCE_OTHER_STRAINS", "link": "/variant-viewer#/S000005901", "display_name": "Variant Viewer"}, {"category": "LOCUS_PROEIN_LOCALIZATION", "link": "http://yeastgfp.yeastgenome.org/getOrf.php?orf=YOR374W", "display_name": "YeastGFP"}, {"category": "LOCUS_PHENOTYPE_RESOURCES_ONTOLOGY", "link": "/ontology/phenotype/ypo", "display_name": "Yeast Phenotype Ontology"}, {"category": "LOCUS_REGULATION_RESOURCES", "link": "http://www.yeastract.com/view.php?existing=locus&orfname=YOR374W", "display_name": "YEASTRACT"}, {"category": "LOCUS_PROEIN_LOCALIZATION", "link": "http://images.yeastrc.org/imagerepo/yeastProteinRedirect.do?acc=YOR374W", "display_name": "YeastRC Public Images"}, {"category": "LOCUS_PROTEIN_PROTEIN_DATABASES", "link": "http://www.yeastrc.org/pdr/yeastProteinRedirect.do?acc=YOR374W#pspData", "display_name": "YeastRC Structure Prediction"}, {"category": "LOCUS_PROEIN_LOCALIZATION", "link": "http://shmoo.weizmann.ac.il/elevy/YeastRGB/HTML/YeastRGB.html?search=YOR374W", "display_name": "YeastRGB"}, {"category": "LOCUS_PROTEIN_HOMOLOGS", "link": "http://ygob.ucd.ie/cgi/ygob.pl?gene=YOR374W", "display_name": "YGOB"}, {"category": "LOCUS_PHENOTYPE_RESOURCES_MUTANT_STRAINS", "link": "http://yeast.lab.nig.ac.jp/yeast/byPlasmidAllItemsList.jsf", "display_name": "YGRC"}, {"category": "LOCUS_PROTEIN_HOMOLOGS", "link": "http://bahlerweb.cs.ucl.ac.uk/cgi-bin/YOGY/yogy.pl?gene=YOR374W&species=S._cerevisiae&wild=No&go_term=Yes&go_final=No", "display_name": "YOGY"}, {"category": "LOCUS_PROEIN_LOCALIZATION", "link": "http://yplp.uni-graz.at/array_data.php?tbl_id=669523384469120242866&showgallery=yes&showinfos=&newsite=yes&gene=YOR374W", "display_name": "YPL+"}, {"category": "LOCUS_SEQUENCE", "link": "/seqTools?seqname=YOR374W", "display_name": "Gene/Sequence Resources"}, {"category": "LOCUS_SEQUENCE", "link": "https://browse.yeastgenome.org/?loc=YOR374W", "display_name": "JBrowse"}], "interaction_overview": {"physical_experiments": {"Affinity Capture-RNA": 4, "Affinity Capture-MS": 22, "Affinity Capture-Western": 1}, "phys_circle_size": 2.876813695875796, "num_gen_interactors": 39, "circle_distance": 7.400176515848759, "num_both_interactors": 0, "genetic_experiments": {"Negative Genetic": 31, "Synthetic Growth Defect": 2, "Phenotypic Suppression": 2, "Positive Genetic": 8, "Phenotypic Enhancement": 1}, "gen_circle_size": 3.523362819972964, "total_interactions": 71, "total_interactors": 65, "num_phys_interactors": 26}, "go_overview": {"manual_biological_process_terms": [{"namespace": "biological process", "evidence_codes": [{"link": "http://wiki.geneontology.org/index.php/Inferred_from_Genetic_Interaction_(IGI)", "display_name": "IGI"}], "term": {"link": "/go/GO:0019413", "display_name": "acetate biosynthetic process"}, "qualifiers": ["involved in"]}, {"namespace": "biological process", "evidence_codes": [{"link": "http://wiki.geneontology.org/index.php/Inferred_from_Mutant_Phenotype_(IMP)", "display_name": "IMP"}], "term": {"link": "/go/GO:0006067", "display_name": "ethanol metabolic process"}, "qualifiers": ["involved in"]}, {"namespace": "biological process", "evidence_codes": [{"link": "http://wiki.geneontology.org/index.php/Inferred_from_Genetic_Interaction_(IGI)", "display_name": "IGI"}], "term": {"link": "/go/GO:0006740", "display_name": "NADPH regeneration"}, "qualifiers": ["involved in"]}, {"namespace": "biological process", "evidence_codes": [{"link": "http://wiki.geneontology.org/index.php/Inferred_from_Mutant_Phenotype_(IMP)", "display_name": "IMP"}], "term": {"link": "/go/GO:0006090", "display_name": "pyruvate metabolic process"}, "qualifiers": ["involved in"]}], "htp_biological_process_terms": [], "htp_molecular_function_terms": [], "htp_cellular_component_terms": [{"namespace": "cellular component", "evidence_codes": [{"link": "http://wiki.geneontology.org/index.php/Inferred_from_High_Throughput_Direct_Assay_(HDA)", "display_name": "HDA"}], "term": {"link": "/go/GO:0005739", "display_name": "mitochondrion"}, "qualifiers": ["part of"]}], "date_last_reviewed": "2009-07-02", "computational_annotation_count": 9, "manual_molecular_function_terms": [{"namespace": "molecular function", "evidence_codes": [{"link": "http://wiki.geneontology.org/index.php/Inferred_from_Direct_Assay_(IDA)", "display_name": "IDA"}, {"link": "http://wiki.geneontology.org/index.php/Inferred_from_Mutant_Phenotype_(IMP)", "display_name": "IMP"}], "term": {"link": "/go/GO:0004029", "display_name": "aldehyde dehydrogenase (NAD+) activity"}, "qualifiers": ["enables"]}, {"namespace": "molecular function", "evidence_codes": [{"link": "http://wiki.geneontology.org/index.php/Inferred_from_Direct_Assay_(IDA)", "display_name": "IDA"}], "term": {"link": "/go/GO:0004030", "display_name": "aldehyde dehydrogenase [NAD(P)+] activity"}, "qualifiers": ["enables"]}], "go_slim": [{"link": "/go/GO:0016491", "display_name": "oxidoreductase activity"}, {"link": "/go/GO:0051186", "display_name": "cofactor metabolic process"}, {"link": "/go/GO:0032787", "display_name": "monocarboxylic acid metabolic process"}, {"link": "/go/GO:0055086", "display_name": "nucleobase-containing small molecule metabolic process"}], "paragraph": "An aldehyde dehydrogenase involved in ethanol metabolism, pyruvate metabolism, acetate biosythesis and NADPH regeneration; localized to mitochondria", "manual_cellular_component_terms": [{"namespace": "cellular component", "evidence_codes": [{"link": "http://wiki.geneontology.org/index.php/Inferred_from_Direct_Assay_(IDA)", "display_name": "IDA"}], "term": {"link": "/go/GO:0042645", "display_name": "mitochondrial nucleoid"}, "qualifiers": ["part of"]}, {"namespace": "cellular component", "evidence_codes": [{"link": "http://wiki.geneontology.org/index.php/Inferred_from_Direct_Assay_(IDA)", "display_name": "IDA"}], "term": {"link": "/go/GO:0005739", "display_name": "mitochondrion"}, "qualifiers": ["part of"]}]}, "phenotype_overview": {"experiment_categories": [["Mutant Type", "classical genetics", "large-scale survey"], ["null", 5, 10]], "large_scale_phenotypes": {"null": [{"link": "/phenotype/viable", "id": 1355290, "display_name": "viable"}, {"link": "/phenotype/increased_resistance_to_chemicals", "id": 1355358, "display_name": "resistance to chemicals: increased"}, {"link": "/phenotype/increased_competitive_fitness", "id": 1355629, "display_name": "competitive fitness: increased"}, {"link": "/phenotype/decreased_resistance_to_chemicals", "id": 1355300, "display_name": "resistance to chemicals: decreased"}, {"link": "/phenotype/increased_chronological_lifespan", "id": 1355622, "display_name": "chronological lifespan: increased"}, {"link": "/phenotype/abnormal_vacuolar_morphology", "id": 1355291, "display_name": "vacuolar morphology: abnormal"}, {"link": "/phenotype/decreased_competitive_fitness", "id": 1355357, "display_name": "competitive fitness: decreased"}, {"link": "/phenotype/decreased_rate_utilization_of_carbon_source", "id": 1355793, "display_name": "utilization of carbon source: decreased rate"}, {"link": "/phenotype/decreased_cell_death", "id": 1355671, "display_name": "cell death: decreased"}]}, "strains": [["Strain", "Annotations"], ["S288C", 13], ["Other", 1], ["W303", 1]], "paragraph": "Non-esseential gene; null mutants have abnormal vacuolar morphology, decreased respiratory growth, decreased growth on galactose and ribose, increased lifespan, are sensitive to oleic acid and to oxidative stress, and are resistant to the allergen nickel sulfate\n", "classical_phenotypes": {"null": [{"link": "/phenotype/decreased_utilization_of_carbon_source", "id": 1355442, "display_name": "utilization of carbon source: decreased"}, {"link": "/phenotype/normal_utilization_of_carbon_source", "id": 1355716, "display_name": "utilization of carbon source: normal"}, {"link": "/phenotype/increased_chemical_compound_accumulation", "id": 1355216, "display_name": "chemical compound accumulation: increased"}, {"link": "/phenotype/decreased_oxidative_stress_resistance", "id": 1355259, "display_name": "oxidative stress resistance: decreased"}]}}, "gene_name": "ALD4", "paragraph": {"date_edited": "2009-08-14", "text": "Aldehyde dehydrogenases play a critical role in the conversion of <a href=\"/go/6085\">acetaldehyde to acetyl-CoA</a> during growth on non-fermentable carbon sources and in the breakdown of toxic aldehydes accumulated under stress conditions (<span data-tooltip aria-haspopup=\"true\" class=\"has-tip\" title=\"Aranda A and del Olmo Ml Ml (2003)\"><a href=\"/reference/S000073562\">5</a></span>). Acetaldehyde arises during the metabolism of <a href=\"/go/6090\">pyruvate to acetate</a> by the cytoplasmic <a href=\"http://pathway.yeastgenome.org/YEAST/NEW-IMAGE?type=PATHWAY&object=GLUCFERMEN-PWY\">pyruvate dehydrogenase bypass (PDH) pathway</a>, which involves the enzymatic activities <a href=\"/go/4737\">pyruvate decarboxylase</a> (<a href=\"/locus/S000003319\">PDC6</a>, <a href=\"/locus/S000004124\">PDC5</a>, <a href=\"/locus/S000004034\">PDC1</a>), <a href=\"/go/4030\">acetaldehyde dehydrogenase</a> (<a href=\"/locus/S000005982\">ALD6</a>), and <a href=\"/go/3987\">acetyl-CoA synthetase</a> (<a href=\"/locus/S000000050\">ACS1</a>, <a href=\"/locus/S000004143\">ACS2</a>) (<span data-tooltip aria-haspopup=\"true\" class=\"has-tip\" title=\"Boubekeur S, et al. (1999)\"><a href=\"/reference/S000044728\">7</a></span>). In an alternate mitochondrial pyruvate dehydrogenase bypass pathway, pyruvate is first decarboxylated to acetaldehyde in the cytosol by pyruvate decarboxylase and is then converted to acetate by the mitochondrial acetaldehyde dehydrogenases (<a href=\"/locus/S000005901\">ALD4</a> and <a href=\"/locus/S000000875\">ALD5</a>) (<span data-tooltip aria-haspopup=\"true\" class=\"has-tip\" title=\"Boubekeur S, et al. (2001)\"><a href=\"/reference/S000066143\">9</a></span>). <br> <p> In the yeast genome, there are five genes known to encode aldehyde dehydrogenases, as well as an additional gene with sequence similarity. <a href=\"/locus/S000004780\">Ald2p</a> and <a href=\"/locus/S000004779\">Ald3p</a> are cytosolic enzymes which use only NAD+ as cofactor. Both genes are induced in response to ethanol or stress and repressed by glucose. <a href=\"/locus/S000005901\">Ald4p</a> and <a href=\"/locus/S000000875\">Ald5p</a> are mitochondrial, use NAD and NADP as cofactors, and are K+ dependent. <a href=\"/locus/S000005901\">Ald4p</a>, the major isoform, is glucose repressed and <a href=\"/locus/S000005901\">ald4</a> mutants do not grow on ethanol, while <a href=\"/locus/S000000875\">Ald5p</a>, the minor isoform, is constitutively expressed (<span data-tooltip aria-haspopup=\"true\" class=\"has-tip\" title=\"Wang X, et al. (1998)\"><a href=\"/reference/S000050673\">10</a></span>, <span data-tooltip aria-haspopup=\"true\" class=\"has-tip\" title=\"Tessier WD, et al. (1998)\"><a href=\"/reference/S000052397\">2</a></span>). <a href=\"/locus/S000005982\">ALD6</a> encodes the Mg2+ activated cytosolic enzyme, which uses NADP+ as cofactor and is constitutively expressed. <a href=\"/locus/S000004716\">HFD1</a> has been predicted to encode a fatty aldehyde dehydrogenase (<span data-tooltip aria-haspopup=\"true\" class=\"has-tip\" title=\"Navarro-Avi\u00f1o JP, et al. (1999)\"><a href=\"/reference/S000039810\">1</a></span>, <span data-tooltip aria-haspopup=\"true\" class=\"has-tip\" title=\"Kurita O and Nishida Y (1999)\"><a href=\"/reference/S000052315\">11</a></span>, <span data-tooltip aria-haspopup=\"true\" class=\"has-tip\" title=\"Boubekeur S, et al. (2001)\"><a href=\"/reference/S000066143\">9</a></span>, <span data-tooltip aria-haspopup=\"true\" class=\"has-tip\" title=\"Zahedi RP, et al. (2006)\"><a href=\"/reference/S000114057\">12</a></span>).Expression of <a href=\"/locus/S000005901\">ALD4</a> is regulated by several different proteins. The transcription factor <a href=\"/locus/S000001221\">Stb5p</a> induces transcription of <a href=\"/locus/S000005901\">ALD4</a> (<span data-tooltip aria-haspopup=\"true\" class=\"has-tip\" title=\"Larochelle M, et al. (2006)\"><a href=\"/reference/S000117952\">6</a></span>), while the transcription repressors <a href=\"/locus/S000002450\">Nrg1p</a> and <a href=\"/locus/S000000270\">Nrg2p</a> decrease it (<span data-tooltip aria-haspopup=\"true\" class=\"has-tip\" title=\"Vyas VK, et al. (2005)\"><a href=\"/reference/S000087182\">8</a></span>). Aldehyde dehydrogenases are conserved across many species and are key enzymes in metabolic pathways, some of which function to detoxify harmful chemical intermediates. In humans, mutations in aldehyde dehydrogenase genes (ALDH1, ALDH2, ALDH4 and ALDH10) are associated with alcoholism and carcinogenesis. In plants, these enzymes play important roles in fertility and in fruit ripening (<span data-tooltip aria-haspopup=\"true\" class=\"has-tip\" title=\"Navarro-Avi\u00f1o JP, et al. (1999)\"><a href=\"/reference/S000039810\">1</a></span> and references therein)."}, "locus_type": "ORF", "complexes": [], "sgdid": "S000005901", "bioent_status": "Active", "id": 1285353, "name_description": "ALdehyde Dehydrogenase", "literature_overview": {"primary_count": 39, "additional_count": 120, "review_count": 16, "total_count": 210}, "format_name": "YOR374W", "history": [{"category": "Name", "history_type": "LSP", "references": [{"pubmed_id": 10407263, "id": 649448, "year": 1999, "urls": [{"link": "http://dx.doi.org/10.1002/(SICI)1097-0061(199907)15:10A<829::AID-YEA423>3.0.CO;2-9", "display_name": "DOI full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pubmed/10407263", "display_name": "PubMed"}], "link": "/reference/S000039810", "display_name": "Navarro-Avi\u00f1o JP, et al. (1999)", "citation": "Navarro-Avi\u00f1o JP, et al. (1999) A proposal for nomenclature of aldehyde dehydrogenases in Saccharomyces cerevisiae and characterization of the stress-inducible ALD2 and ALD3 genes. Yeast 15(10A):829-42"}], "note": "<b>Name:</b> ALD4", "date_created": "2000-05-19"}, {"category": "Name", "history_type": "LSP", "references": [{"pubmed_id": 9150920, "id": 632630, "year": 1997, "urls": [{"link": "http://dx.doi.org/10.1002/elps.1150180316", "display_name": "DOI full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pubmed/9150920", "display_name": "PubMed"}], "link": "/reference/S000044867", "display_name": "Larsson T, et al. (1997)", "citation": "Larsson T, et al. (1997) Identification of two-dimensional gel electrophoresis resolved yeast proteins by matrix-assisted laser desorption ionization mass spectrometry. Electrophoresis 18(3-4):418-23"}], "note": "<b>Name:</b> ALD7", "date_created": "2010-02-16"}, {"category": "Name", "history_type": "LSP", "references": [{"pubmed_id": 9473035, "id": 615437, "year": 1998, "urls": [{"link": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC106960/", "display_name": "PMC full text"}, {"link": "http://www.ncbi.nlm.nih.gov/pubmed/9473035", "display_name": "PubMed"}], "link": "/reference/S000050673", "display_name": "Wang X, et al. (1998)", "citation": "Wang X, et al. (1998) Molecular cloning, characterization, and potential roles of cytosolic and mitochondrial aldehyde dehydrogenases in ethanol metabolism in Saccharomyces cerevisiae. J Bacteriol 180(4):822-30"}], "note": "<b>Name:</b> ALDH2", "date_created": "2010-02-16"}, {"category": "Nomenclature history", "history_type": "LSP", "references": [], "note": "<b>Nomenclature history:</b> Nomenclature of the aldehyde dehydrogenase-encoding genes was in flux before 1999, and in several cases the same gene name was assigned to different genes. The confusing issues, and the current nomenclature system, are explained in <a href=\"http://db.yeastgenome.org/cgi-bin/reference/reference.pl?dbid=S000039810\">Navarro-Avino et al.</a>, Yeast 15(10A):829-42 (1999). Note that the name ALD1 is not in use as a standard name, since it was initially assigned to a sequence that later proved to be a cloning artifact (GenBank <a href=\"http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?db=nuccore&id=171047\">M57887.1</a>).", "date_created": "2007-11-27"}, {"category": "Mapping", "history_type": "SEQUENCE", "references": [{"pubmed_id": null, "id": 542517, "year": 1998, "urls": [], "link": "/reference/S000076263", "display_name": "Cherry JM, et al. (1998)", "citation": "Cherry JM, et al. (1998) \"Genetic and Physical Maps of Saccharomyces cerevisiae (Edition 15)\". Pp. 414-420 in 1998 Yeast Genetics and Molecular Biology Meeting Program and Abstracts.  Bethesda, MD: The Genetics Society of America"}], "note": "<b>Mapping:</b> Edition 15: YOR374W was previously known as ALD7", "date_created": "1998-11-10"}]},
+        tabs: {"disease_tab": false, "phenotype_tab": true, "expression_tab": true, "sequence_tab": true, "sequence_section": true, "literature_tab": true, "protein_tab": true, "regulation_tab": true, "go_tab": true, "interaction_tab": true, "id": 1285353, "summary_tab": true, "history_tab": true, "wiki_tab": false}
+    };
+</script>
+
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="description" content="The Saccharomyces Genome Database (SGD) provides comprehensive integrated biological information for the budding yeast Saccharomyces cerevisiae.">
+	<link rel="shortcut icon" type="image/x-icon" href="/img-domain/favicon.ico" />
+    <style type="text/css">
+        .locale { text-align: center; }
+        .locale-name { font-weight: bold; }
+    </style>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALD4 | SGD</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="https://d1x6jdqbvd5dr.cloudfront.net/00c2e41b935709e325a1/css/normalize.css" rel="stylesheet">
+	<link href="https://d1x6jdqbvd5dr.cloudfront.net/00c2e41b935709e325a1/css/style.css" rel="stylesheet">
+	<script src="https://d1x6jdqbvd5dr.cloudfront.net/00c2e41b935709e325a1/js/build/modernizr.min.js"></script>
+
+</head>
+<body data-spy="scroll" data-target=".sgd-navbar">
+	<!-- j-application-target is target for rendering react-router application -->
+	<div id="j-application-target">
+		<header id="layout-page-header">
+    <!--[if lt IE 10]>
+      <div class="panel">
+        <p>It looks like you are using an unsupported version of Internet Explorer.  Because <a href="https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support">Microsoft no longer longer supports any version other than 11</a>, we have decided to do the same.  We recommend downloading Firefox or Chrome.  You can download Firefox <a href="https://www.mozilla.org/en-US/firefox/new/">here</a>, or Chrome <a href="https://www.google.com/chrome/browser/desktop/">here</a>.</p>
+      </div>
+    <![endif]-->
+    <div class="hide-for-small">
+        <div class="top-header">
+            <div>
+              
+              <span class="sgd-announcment"></span>
+            </div>
+            <div class="site-links">
+                <a target="_blank" href="https://sites.google.com/view/yeastgenome-help/about" class="hide-external-link-icon">About</a><a href="/blog">Blog</a><a href="http://sgd-archive.yeastgenome.org">Download</a><a href="https://www.yeastgenome.org/search?q=&is_quick=true">Explore</a><a class="hide-external-link-icon" target="_blank" href="https://sites.google.com/view/yeastgenome-help/sgd-general-help">Help</a><a href="http://yeastmine.yeastgenome.org/yeastmine/begin.do">YeastMine</a>
+                <div class="social-media-links">
+                    <a href="mailto:sgd-helpdesk@lists.stanford.edu" id="email-header" class="webicon mail small">Email Us</a><a href="http://twitter.com/#!/yeastgenome" target="_blank" id="twitter" class="webicon twitter small">Twitter</a><a href="https://www.facebook.com/yeastgenome" target="_blank" class="webicon facebook small" id="facebook">Facebook</a><a href="https://www.linkedin.com/company/saccharomyces-genome-database" target="_blank" class="webicon linkedin small" id="linkedin">Linkedin</a><a href="https://www.youtube.com/SaccharomycesGenomeDatabase" target="_blank" id="youtube" class="webicon youtube small">YouTube</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="menu-bar-container">
+            <a href="/" class="show-for-large-up">
+                <div class="logo"><span class="logo-label">Saccharomyces Genome Database</span>
+                </div>
+            </a>
+            <div class="sgd-menu-divider left show-for-large-up"></div>
+            <div class="top-menu-container">
+                <nav class="top-bar" data-topbar="true" role="navigation">
+                    <ul class="title-area">
+                        <li class="name"><span class="hide-for-large-up"><a href="/" class="show-for-medium"><div class="logo small-logo"><span class="logo-label">Saccharomyces Genome Database</span>
+            </div>
+            </a>
+            <a href="/" class="show-for-small">
+                <div class="logo small-logo"><span class="logo-label">Saccharomyces Genome Database</span>
+                </div>
+            </a>
+            </span>
+            </li>
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a>
+            </li>
+            </ul>
+            <section class="top-bar-section">
+                <ul class="left">
+                    <li class="has-dropdown"><a href="#">Analyze</a>
+                        <ul class="dropdown">
+                            <li><a class="disabled-header-a" href="https://yeastmine.yeastgenome.org/yeastmine/bag.do">Gene Lists</a>
+                            </li>
+                            <li><a class="disabled-header-a" href="/blast-sgd">BLAST</a>
+                            </li>
+                            <li><a class="disabled-header-a" href="/blast-fungal">Fungal BLAST</a>
+                            </li>
+                            <li><a class="disabled-header-a" href="/goTermFinder">GO Term Finder</a>
+                            </li>
+                            <li><a class="disabled-header-a" href="/goSlimMapper">GO Slim Mapper</a>
+                            </li>
+                            <li><a class="disabled-header-a" href="/nph-patmatch">Pattern Matching</a>
+                            </li>
+                            <li><a class="disabled-header-a" href="/primer3">Design Primers</a>
+                            </li>
+                            <li><a class="disabled-header-a" href="/restrictionMapper">Restriction Site Mapper</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown"><a href="#">Sequence</a>
+                        <ul class="dropdown">
+                            <li><a class="disabled-header-a" href="http://sgd-archive.yeastgenome.org/sequence/">Download</a>
+                            </li>
+                            <li><a class="disabled-header-a" href="https://browse.yeastgenome.org">Genome Browser</a>
+                            </li>
+                            <li><a class="disabled-header-a" href="/blast-sgd">BLAST</a>
+                            </li>
+                            <li><a class="disabled-header-a" href="/blast-fungal">Fungal BLAST</a>
+                            </li>
+                            <li><a class="disabled-header-a" href="/seqTools">Gene/Sequence Resources</a>
+                            </li>
+                            <li class="has-dropdown"><a href="#">Reference Genome</a>
+                                <ul class="dropdown">
+                                    <li><a class="disabled-header-a" href="http://sgd-archive.yeastgenome.org/sequence/S288C_reference/genome_releases/">Download Genome</a>
+                                    </li>
+                                    <li><a class="disabled-header-a" href="/genomesnapshot">Genome Snapshot</a>
+                                    </li>
+                                    <li><a class="disabled-header-a" href="/cgi-bin/chromosomeHistory.pl">Chromosome History</a>
+                                    </li>
+                                    <li><a class="disabled-header-a" href=" http://wiki.yeastgenome.org/index.php/Systematic_Sequencing_Table">Systematic Sequencing Table</a>
+                                    </li>
+                                    <li><a class="disabled-header-a" href="http://wiki.yeastgenome.org/index.php/Original_Sequence_Papers">Original Sequence Papers</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown"><a href="#">Strains and Species</a>
+                                <ul class="dropdown">
+                                    <li><a class="disabled-header-a" href="/variant-viewer#/?_k=3yu0l3">Variant Viewer</a>
+                                    <li><a class="disabled-header-a" href="/strainAlignment">Align Strain Sequences</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown"><a href="#">Resources</a>
+                                <ul class="dropdown">
+                                    <li><a class="disabled-header-a" href="http://www.uniprot.org/">UniProtKB</a>
+                                    </li>
+                                    <li><a class="disabled-header-a" href="http://www.ebi.ac.uk/interpro/">InterPro (EBI)</a>
+                                    </li>
+                                    <li><a class="disabled-header-a" href="http://www.ncbi.nlm.nih.gov/homologene">HomoloGene (NCBI)</a>
+                                    </li>
+                                    <li><a class="disabled-header-a" href="http://wolfe.gen.tcd.ie/ygob/">YGOB (Trinity College)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown"><a href="">Function</a>
+                        <ul class="dropdown">
+                            <li class="has-dropdown"><a href="#">Gene Ontology</a>
+                                <ul class="dropdown">
+                                    <li><a class="disabled-header-a" href="/goTermFinder">GO Term Finder</a>
+                                    </li>
+                                    <li><a class="disabled-header-a" href="/goSlimMapper">GO Slim Mapper</a>
+                                    </li>
+                                    <li><a class="disabled-header-a" href="http://sgd-archive.yeastgenome.org/curation/literature/go_slim_mapping.tab">GO Slim Mapping File</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a class="disabled-header-a" href="https://spell.yeastgenome.org/">Expression</a>
+                            </li>
+                            <li><a class="disabled-header-a" href="https://pathway.yeastgenome.org">Biochemical Pathways</a>
+                            </li>
+                            <li class="has-dropdown"><a href="#">Phenotypes</a>
+                                <ul class="dropdown">
+                                    <li><a class="disabled-header-a" href="/ontology/phenotype/ypo">Browse All Phenotypes</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a class="disabled-header-a" href="/interaction-search">Interactions</a>
+                            </li>
+                            <li><a class="disabled-header-a" href="https://yeastgfp.yeastgenome.org/">YeastGFP</a>
+                            </li>
+                            <li class="has-dropdown"><a href="#">Resources</a>
+                                <ul class="dropdown">
+                                    <li><a class="disabled-header-a" href="http://www.geneontology.org/">GO Consortium</a>
+                                    </li>
+                                    <li><a class="disabled-header-a" href="http://thebiogrid.org/">BioGRID (U. Toronto)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown"><a href="">Literature</a>
+                        <ul class="dropdown">
+                            <li><a class="disabled-header-a" href="https://textpresso.yeastgenome.org/">Full-text Search</a>
+                            </li>
+                            <li><a class="disabled-header-a" href="/reference/recent">New Yeast Papers</a>
+                            </li>
+                            <li><a className="disabled-header-a" href="http://www.genetics.org/content/yeastbook">YeastBook</a></li>
+                            <li><a class="disabled-header-a" href="https://yeastmine.yeastgenome.org/yeastmine/loadTemplate.do?name=GenomeWide_Papers&scope=all&method=results&format=tab">Genome-wide Analysis Papers</a>
+                            </li>
+                            <li class="has-dropdown"><a href="#">Resources</a>
+                                <ul class="dropdown">
+                                    <li><a class="disabled-header-a" href="http://www.ncbi.nlm.nih.gov/pubmed/">PubMed (NCBI)</a>
+                                    </li>
+                                    <li><a class="disabled-header-a" href="http://www.ncbi.nlm.nih.gov/pmc/">PubMed Central (NCBI)</a>
+                                    </li>
+                                    <li><a class="disabled-header-a" href="http://scholar.google.com/">Google Scholar</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown"><a href="#">Community</a>
+                        <ul class="dropdown">
+                            <li class="has-dropdown"><a href="#">Colleague Information</a>
+                                <ul class="dropdown">
+                                    <li><a class="disabled-header-a" href="/search?q=&category=colleague">Find a Colleague</a>
+                                    </li>
+                                    <li><a href="/colleague_update">Add or Update Info</a>
+                                    </li>
+                                    <li><a class="disabled-header-a" href="/search?q=&category=colleague">Find a Yeast Lab</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a class="disabled-header-a" href="http://wiki.yeastgenome.org/index.php/Career_Resources">Career Resources</a>
+                            </li>
+                            <li class="has-dropdown"><a href="#">Meetings</a>
+                                <ul class="dropdown">
+                                    <li><a class="disabled-header-a" href="http://wiki.yeastgenome.org/index.php/Meetings#Upcoming_Conferences_.26_Courses">Future</a>
+                                    </li>
+                                    <li><a class="disabled-header-a" href="http://wiki.yeastgenome.org/index.php/Meetings#Past_Yeast_Meetings">Yeast Genetics</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown"><a href="#">Nomenclature</a>
+                                <ul class="dropdown">
+                                    <li><a class="disabled-header-a" href="/reserved_name/new">Submit a Gene Registration</a>
+                                    </li>
+                                    <li><a class="disabled-header-a" target="_blank" href="https://sites.google.com/view/yeastgenome-help/community-help/gene-registry">Gene Registry</a>
+                                    </li>
+                                    <li><a class="disabled-header-a" target="_blank" href="https://sites.google.com/view/yeastgenome-help/community-help/nomenclature-conventions">Nomenclature Conventions</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown"><a href="#">Methods and Reagents</a>
+                                <ul class="dropdown">
+                                    <li><a class="disabled-header-a" href="http://wiki.yeastgenome.org/index.php/Strains">Strains and Constructs</a>
+                                    </li>
+                                    <li><a class="disabled-header-a" href="http://wiki.yeastgenome.org/index.php/Reagents">Reagents</a>
+                                    </li>
+                                    <li><a class="disabled-header-a" href="http://wiki.yeastgenome.org/index.php/Methods">Protocols and Methods</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="has-dropdown"><a href="#">Historical Data</a>
+                                <ul class="dropdown">
+                                    <li><a class="disabled-header-a" href="http://wiki.yeastgenome.org/index.php/Combined_Physical_and_Genetic_Maps_of_S._cerevisiae">Physical &amp; Genetic Maps</a>
+                                    </li>
+                                    <li><a class="disabled-header-a" href="http://wiki.yeastgenome.org/index.php/Yeast_Mortimer_Maps_-_Edition_12">Genetic Maps</a>
+                                    </li>
+                                    <li><a class="disabled-header-a" href="http://wiki.yeastgenome.org/index.php/ORFmap_Images">ORFMap Chromosomes</a>
+                                    </li>
+                                    <li><a class="disabled-header-a" href="http://wiki.yeastgenome.org/index.php/Historical_Systematic_Sequence_Information">Sequence</a>
+                                    </li>
+                                    <li><a class="disabled-header-a" href="http://wiki.yeastgenome.org/index.php/Table_of_Gene_Summary_Paragraphs">Gene Summary Paragraphs</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a class="disabled-header-a" href="http://wiki.yeastgenome.org/index.php/Main_Page">Wiki</a>
+                            </li>
+                            <li><a class="disabled-header-a" href="/submitData">Submit Data</a></li>
+                            <li><a class="disabled-header-a" href="http://wiki.yeastgenome.org/index.php/External_Links">Resources</a>
+                            </li>
+                            <li><a class="disabled-header-a" href="/api/doc" target="_blank">API</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown" id="info-menu"><a href="#">Info &amp; Downloads</a>
+                        <ul class="dropdown">
+                            <li><a class="disabled-header-a" href="https://sites.google.com/view/yeastgenome-help/about">About</a>
+                            </li>
+                            <li><a class="disabled-header-a" href="/blog">Blog</a>
+                            </li>
+                            <li><a class="disabled-header-a" href="/downloads">Downloads</a>
+                            </li>
+                            <li><a class="disabled-header-a" href="/site-map">Site Map</a>
+                            </li>
+                            <li><a class="disabled-header-a"target="_blank" href="https://sites.google.com/view/yeastgenome-help/sgd-general-help">Help</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            </nav>
+        </div>
+        <div class="sgd-menu-divider right show-for-large-up"></div>
+        <div class="menu-search-container" id="j-search-container">
+            <div class="sgd-search-container">
+                <form action='/search' autocomplete='off'>
+                    <div style="position:relative;" class="react-typeahead-container ">
+                        <div style="position:relative;" class="react-typeahead-input-container">
+                            <input disabled="" role="presentation" aria-hidden="true" class="react-typeahead-input react-typeahead-hint" style="color:silver;-webkit-text-fill-color:silver;position:absolute;" />
+                            <input autocomplete="false" role="combobox" placeholder="search: actin, kinase, glucose" style="position:relative;background:transparent;" spellcheck="false" value="" aria-owns="react-typeahead-options-1" aria-autocomplete="both" autocorrect="false" aria-expanded="false" aria-activedescendant="react-typeahead-activedescendant-1" class="react-typeahead-input react-typeahead-usertext" name="q" autocomplete="off" />
+                        </div><span role="status" aria-live="polite" style="left:-9999px;position:absolute;"></span><span role="status" aria-live="polite" style="left:-9999px;position:absolute;"></span>
+                    </div>
+                    <input type="submit" style="display:none;">
+                </form>
+                <span class="search-icon"><i class="fa fa-search"></i></span>
+            </div>
+
+        </div>
+        </div>
+    </section>
+</header>
+
+		<div class="container" id="layout-document">
+	    	
+
+<!-- Tabs -->
+<!-- large screen version -->
+<div class="row hide-for-small">
+	<nav class="small-12 columns">
+		<ul class="tabs sgd-tabs">
+			<li id="summary_tab" class="tab-title" ><a href="/locus/S000005901"><span>Summary</span></a></li>
+            <li id="sequence_tab" class="tab-title" ><a href="/locus/S000005901/sequence"><span>Sequence</span></a></li>
+			<li id="protein_tab" class="tab-title" ><a href="/locus/S000005901/protein"><span>Protein</span></a></li>
+			<li id="go_tab" class="tab-title" ><a href="/locus/S000005901/go"><span>Gene Ontology</span></a></li>
+			<li id="phenotype_tab" class="tab-title" ><a href="/locus/S000005901/phenotype"><span>Phenotype</span></a></li>
+			<li id="disease_tab" class="tab-title"  style="display:none" ><a href="/locus/S000005901/disease"><span>Disease</span></a></li>
+			<li id="interaction_tab" class="tab-title" ><a href="/locus/S000005901/interaction"><span>Interactions</span></a></li>
+			<li id="regulation_tab" class="tab-title" ><a href="/locus/S000005901/regulation"><span>Regulation</span></a></li>
+			<li id="expression_tab" class="tab-title" ><a href="/locus/S000005901/expression"><span>Expression</span></a></li>
+            <li id="literature_tab" class="tab-title" ><a href="/locus/S000005901/literature"><span>Literature</span></a></li>
+		</ul>
+		<div class="sgd-tab-shadow"></div>
+	</nav>
+</div>
+
+<!-- small screen version -->
+<nav class="top-bar show-for-small mobile-tab-bar" data-topbar role="navigation">
+	<ul class="title-area">
+		<li class="name">
+	      <h1><a>ALD4</a></h1>
+	    </li>
+		<li class="toggle-topbar"><a href="#"><span>&nbsp;<i class="fa fa-list-ul"></i></span></a></li>
+	</ul>
+	<section class="top-bar-section">
+		<ul class="right">
+			<li id="summary_tab" ><a href="/locus/S000005901"><span>Summary</span></a></li>
+            <li id="sequence_tab" ><a href="/locus/S000005901/sequence"><span>Sequence</span></a></li>
+			<li id="protein_tab" ><a href="/locus/S000005901/protein"><span>Protein</span></a></li>
+			<li id="go_tab" ><a href="/locus/S000005901/go"><span>Gene Ontology</span></a></li>
+			<li id="phenotype_tab" ><a href="/locus/S000005901/phenotype"><span>Phenotype</span></a></li>
+		    <li id="disease_tab"  style="display:none" ><a href="/locus/S000005901/disease"><span>Disease</span></a></li>
+			<li id="interaction_tab" ><a href="/locus/S000005901/interaction"><span>Interactions</span></a></li>
+			<li id="regulation_tab" ><a href="/locus/S000005901/regulation"><span>Regulation</span></a></li>
+			<li id="expression_tab" ><a href="/locus/S000005901/expression"><span>Expression</span></a></li>
+            <li id="literature_tab" ><a href="/locus/S000005901/literature"><span>Literature</span></a></li>
+		</ul>
+	</section>
+</nav>
+
+<div class="row">
+     
+    <div id="navbar-container" class="large-2 columns hide-for-small-down">
+    </div>
+
+    <div class="small-12 medium-10 columns content-column">
+
+<!-- Overview
+================================================== -->
+    <section id="overview">
+        <h1>ALD4 / YOR374W Overview
+        </h1>
+        <hr />
+        <div class="">
+
+            <dl class="key-value">
+
+                
+                
+                    <dt>Standard Name</dt>
+                    <dd>ALD4
+                        
+                            
+                            
+    <span data-tooltip aria-haspopup="true" class="has-tip" title="Navarro-Aviño JP, et al. (1999)">
+        
+            <a href="#reference"><sup>1</sup></a>
+        
+
+    </span>
+
+                        
+                        </dd>
+                
+                
+                <dt>Systematic Name</dt>
+                <dd>YOR374W</dd>
+
+                <dt>SGD ID</dt>
+                <dd>SGD:S000005901</dd>
+
+                
+                    <dt>Aliases</dt><dd>
+
+                    ALDH2
+                    
+    <span data-tooltip aria-haspopup="true" class="has-tip" title="Wang X, et al. (1998)">
+        
+            <a href="#reference"><sup>10</sup></a>
+        
+
+    </span>
+,
+                
+                    
+
+                    ALD7
+                    
+    <span data-tooltip aria-haspopup="true" class="has-tip" title="Larsson T, et al. (1997)">
+        
+            <a href="#reference"><sup>13</sup></a>
+        
+
+    </span>
+</dd>
+                <dt>Feature Type</dt>
+                    <dd>ORF
+                            
+                        , Verified
+                            
+                        
+                    </dd>
+                
+
+                <dt>Description</dt>
+                <dd>
+                    Mitochondrial aldehyde dehydrogenase; required for growth on ethanol and conversion of acetaldehyde to acetate; phosphorylated; activity is K+ dependent; utilizes NADP+ or NAD+ equally as coenzymes; expression is glucose repressed; can substitute for cytosolic NADP-dependent aldehyde dehydrogenase when directed to the cytosol; human homolog ALDH2 can complement yeast ald4 mutant
+                    
+                        
+                        
+    <span data-tooltip aria-haspopup="true" class="has-tip" title="Navarro-Aviño JP, et al. (1999)">
+        
+            <a href="#reference"><sup>1</sup></a>
+        
+
+    </span>
+
+    <span data-tooltip aria-haspopup="true" class="has-tip" title="Tessier WD, et al. (1998)">
+        
+            <a href="#reference"><sup>2</sup></a>
+        
+
+    </span>
+
+    <span data-tooltip aria-haspopup="true" class="has-tip" title="Reinders J, et al. (2007)">
+        
+            <a href="#reference"><sup>3</sup></a>
+        
+
+    </span>
+
+    <span data-tooltip aria-haspopup="true" class="has-tip" title="Mukhopadhyay A, et al. (2013)">
+        
+            <a href="#reference"><sup>4</sup></a>
+        
+
+    </span>
+
+                    
+                </dd>
+
+                
+                    <dt>Name Description</dt>
+                    <dd>ALdehyde Dehydrogenase
+                        
+                            
+                            
+    <span data-tooltip aria-haspopup="true" class="has-tip" title="Navarro-Aviño JP, et al. (1999)">
+        
+            <a href="#reference"><sup>1</sup></a>
+        
+
+    </span>
+
+                        
+                    </dd>
+                
+
+                
+
+                
+                <dt>Comparative Info</dt>
+                <dd>
+                    Integrated model organism details available at the <a href="http://www.alliancegenome.org/gene/SGD:S000005901" target="_new">Alliance of Genome Resources</a> website
+                </dd>
+            </dl>
+
+        </div>
+    </section>
+
+<!-- Sequence
+================================================== -->
+    
+    <section id="sequence">
+        
+        <a href="/locus/S000005901/sequence" class="details-link">Sequence Details <i class="fa fa-chevron-circle-right"></i></a>
+        
+        <h2>Sequence
+            <a href="#" data-dropdown="sequence_info"><i class="fa fa-info-circle"></i></a>
+
+            <p id="sequence_info" class="f-dropdown content medium" data-dropdown-content>
+                The <i>S. cerevisiae</i> Reference Genome sequence is derived from laboratory strain
+                <a href="/strain/S288C">S288C</a>. Download DNA or protein sequence, view genomic context and
+                coordinates. Click "Sequence Details" to view all sequence information for this locus, including that
+                for other strains.
+            </p>
+        </h2>
+        <hr />
+
+        <!-- client-rendered sequence -->
+        <div class="sgd-viz">
+            <div class="sgd-viz sequence-details-container" id="sequence-viz">
+                <div class="sgd-loader-container"><div class="sgd-loader"></div></div>
+            </div>
+
+            
+                
+                    <h3>Analyze Sequence</h3>
+                    <div class="panel">
+                        
+                            <h4>S288C only</h4><p id="reference_only_resources_list">
+                            <a href="/blast-sgd?name=YOR374W">BLASTN</a> | 
+                        
+                            
+                            <a href="/blast-sgd?name=YOR374W&amp;type=protein">BLASTP</a> | 
+                        
+                            
+                            <a href="/primer3?name=YOR374W">Design Primers</a> | 
+                        
+                            
+                            <a href="/restrictionMapper?seqname=YOR374W">Restriction Fragment Map</a> | 
+                        
+                            
+                            <a href="/seqTools?seqname=YOR374W&amp;emboss=restrict">Restriction Fragment Sizes</a> | 
+                        
+                            
+                            <a href="/seqTools?seqname=YOR374W&amp;emboss=remap">Six-Frame Translation</a> </p> 
+                        
+
+
+                        
+                            <h4>S288C vs. other species</h4> <p id="other_species_resources_list">
+                            <a href="/blast-fungal?name=YOR374W">BLASTN vs. fungi</a> | 
+                        
+                            
+                            <a href="http://blast.ncbi.nlm.nih.gov/Blast.cgi?ALIGNMENTS=50&amp;AUTO_FORMAT=Semiauto&amp;CDD_SEARCH=on&amp;CLIENT=web&amp;COMPOSITION_BASED_STATISTICS=on&amp;DATABASE=nr&amp;DESCRIPTIONS=100&amp;EXPECT=10&amp;FILTER=L&amp;FORMAT_OBJECT=Alignment&amp;FORMAT_TYPE=HTML&amp;GAPCOSTS=11+1&amp;I_THRESH=0.001&amp;LAYOUT=TwoWindows&amp;MATRIX_NAME=BLOSUM62&amp;NCBI_GI=on&amp;PAGE=Proteins&amp;PROGRAM=blastp&amp;SET_DEFAULTS.x=29&amp;SET_DEFAULTS.y=13&amp;SHOW_LINKOUT=on&amp;SHOW_OVERVIEW=on&amp;WORD_SIZE=3&amp;END_OF_HTTPGET=Yes&amp;QUERY=NP_015019.1">BLASTP at NCBI</a> | 
+                        
+                            
+                            <a href="/blast-fungal?name=YOR374W&amp;type=protein">BLASTP vs. fungi</a> </p> 
+                        
+
+
+                        
+                            <h4>S288C vs. other strains</h4><p id="other_strains_resources_list">
+                            <a href="/strainAlignment?locus=YOR374W">Strain Alignment</a> | 
+                        
+                            
+                            <a href="/variant-viewer#/S000005901">Variant Viewer</a> </p> 
+                        
+
+                    </div>
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        </div>
+    </section>
+
+    
+
+<!-- Protein
+================================================== -->
+    
+    <section id="protein">
+        <a href="/locus/S000005901/protein" class="details-link">Protein Details <i class="fa fa-chevron-circle-right"></i></a>
+        <h2>Protein
+            <a href="#" data-dropdown="protein_info"><i class="fa fa-info-circle"></i></a>
+
+            <p id="protein_info" class="f-dropdown content medium" data-dropdown-content>
+       	       Basic sequence-derived (length, molecular weight, isoelectric point) and experimentally-determined (median abundance, median absolute deviation) protein information. Click "Protein Details" for further information about the protein such as half-life, abundance, domains, domains shared with other proteins, protein sequence retrieval for various strains, physico-chemical properties, protein modification sites, and external identifiers for the protein.
+            </p>
+        </h2>
+        <hr />
+        <div class="">
+            <div class="">
+                 <dl class="key-value">
+                     <dt style="width:300px">Length (a.a.)</dt>
+                     <dd>519</dd>
+
+                     <dt style="width:300px">Mol. Weight (Da)</dt>
+                     <dd>56721.1</dd>
+
+                     <dt style="width:300px">Isoelectric Point</dt>
+                     <dd>6.72</dd>
+
+		     
+			  <dt style="width:300px">Median Abundance (molecules/cell)</dt>
+		     	  
+                     	      <dd>22200 +/- 7817</dd>
+	             	  
+		     
+                 </dl>
+            </div>
+        </div>
+    </section>
+    
+
+<!-- GO
+================================================== -->
+    
+    <section id="go">
+        <a href="/locus/S000005901/go" class="details-link">Gene Ontology Details <i class="fa fa-chevron-circle-right"></i></a>
+        <h2>Gene Ontology
+            <a href="#" data-dropdown="go_info"><i class="fa fa-info-circle"></i></a>
+
+            <p id="go_info" class="f-dropdown content medium" data-dropdown-content>
+                GO Annotations consist of four mandatory components: a gene product, a term from one of the three
+                <a href="http://geneontology.org/">Gene Ontology (GO)</a> controlled vocabularies
+                (<a href='/ontology/go/molecular_function'>Molecular Function</a>,
+                <a href='/ontology/go/biological_process'>Biological Process</a>, and
+                <a href='/ontology/go/cellular_component'>Cellular Component</a>), a reference, and an
+                evidence code. SGD has manually curated and high-throughput GO Annotations, both derived from the
+                literature, as well as computational, or predicted, annotations. Click "Gene Ontology Details" to view
+                all GO information and evidence for this locus as well as biological processes it shares with other genes.
+            </p>
+        </h2>
+        <hr />
+        <div>
+
+            
+                <dl class="key-value">
+                    <dt>Summary</dt>
+                    <dd>An aldehyde dehydrogenase involved in ethanol metabolism, pyruvate metabolism, acetate biosythesis and NADPH regeneration; localized to mitochondria</dd>
+                </dl>
+            
+
+            
+
+                
+                    <p><a href="/locus/S000005901/go#comp">View computational annotations</a></p>
+                
+
+                
+                <div class="panel">
+                    <h3>Molecular Function</h3>
+                    <dl class="key-value">
+                        
+                        <dt>Manually Curated</dt>
+                        <dd><ul style="list-style-type:disc">
+                            
+                                <li>
+                                    
+                                        
+                                            enables
+                                        
+                                    
+                                    <a href="/go/GO:0004029">aldehyde dehydrogenase (NAD+) activity</a> 
+                                    
+                                        (<a href="http://wiki.geneontology.org/index.php/Inferred_from_Direct_Assay_(IDA)">IDA</a>, 
+                                    
+                                        <a href="http://wiki.geneontology.org/index.php/Inferred_from_Mutant_Phenotype_(IMP)">IMP</a>)
+                                    
+                                </li>
+                            
+                                <li>
+                                    
+                                        
+                                            enables
+                                        
+                                    
+                                    <a href="/go/GO:0004030">aldehyde dehydrogenase [NAD(P)+] activity</a> 
+                                    
+                                        (<a href="http://wiki.geneontology.org/index.php/Inferred_from_Direct_Assay_(IDA)">IDA</a>)
+                                    
+                                </li>
+                            
+                        </ul></dd>
+                        
+
+                        
+                    </dl>
+                </div>
+                
+
+                
+                <div class="panel">
+                    <h3>Biological Process</h3>
+                    <dl class="key-value">
+                        
+                        <dt>Manually Curated</dt>
+                        <dd><ul style="list-style-type:disc">
+                            
+                                <li>
+                                    
+                                        
+                                            involved in
+                                        
+                                    
+                                    <a href="/go/GO:0019413">acetate biosynthetic process</a> 
+                                    
+                                        (<a href="http://wiki.geneontology.org/index.php/Inferred_from_Genetic_Interaction_(IGI)">IGI</a>)
+                                    
+                                </li>
+                            
+                                <li>
+                                    
+                                        
+                                            involved in
+                                        
+                                    
+                                    <a href="/go/GO:0006067">ethanol metabolic process</a> 
+                                    
+                                        (<a href="http://wiki.geneontology.org/index.php/Inferred_from_Mutant_Phenotype_(IMP)">IMP</a>)
+                                    
+                                </li>
+                            
+                                <li>
+                                    
+                                        
+                                            involved in
+                                        
+                                    
+                                    <a href="/go/GO:0006740">NADPH regeneration</a> 
+                                    
+                                        (<a href="http://wiki.geneontology.org/index.php/Inferred_from_Genetic_Interaction_(IGI)">IGI</a>)
+                                    
+                                </li>
+                            
+                                <li>
+                                    
+                                        
+                                            involved in
+                                        
+                                    
+                                    <a href="/go/GO:0006090">pyruvate metabolic process</a> 
+                                    
+                                        (<a href="http://wiki.geneontology.org/index.php/Inferred_from_Mutant_Phenotype_(IMP)">IMP</a>)
+                                    
+                                </li>
+                            
+                        </ul></dd>
+                        
+
+                        
+                    </dl>
+                </div>
+                
+
+                
+                <div class="panel">
+                    <h3>Cellular Component</h3>
+                    <dl class="key-value">
+                        
+                        <dt>Manually Curated</dt>
+                        <dd><ul style="list-style-type:disc">
+                            
+                                <li>
+                                    
+                                        
+                                            part of
+                                        
+                                    
+                                    <a href="/go/GO:0042645">mitochondrial nucleoid</a> 
+                                    
+                                        (<a href="http://wiki.geneontology.org/index.php/Inferred_from_Direct_Assay_(IDA)">IDA</a>)
+                                    
+                                </li>
+                            
+                                <li>
+                                    
+                                        
+                                            part of
+                                        
+                                    
+                                    <a href="/go/GO:0005739">mitochondrion</a> 
+                                    
+                                        (<a href="http://wiki.geneontology.org/index.php/Inferred_from_Direct_Assay_(IDA)">IDA</a>)
+                                    
+                                </li>
+                            
+                        </ul></dd>
+                        
+
+                        
+                        <dt>High-Throughput</dt>
+                        <dd><ul style="list-style-type:disc">
+                            
+                                <li>
+                                    
+                                        
+                                            part of
+                                        
+                                    
+                                    <a href="/go/GO:0005739">mitochondrion</a> 
+                                    
+                                        (<a href="http://wiki.geneontology.org/index.php/Inferred_from_High_Throughput_Direct_Assay_(HDA)">HDA</a>)
+                                    
+                                </li>
+                            
+                        </ul></dd>
+                        
+                    </dl>
+                </div>
+                
+            
+        </div>
+    </section>
+    
+
+
+<!-- Complex
+================================================== -->
+    
+    
+<!-- Pathway
+================================================== -->
+    
+    <section id="pathway">
+        <h2>Pathways</h2>
+        <hr />
+        <div class="panel">
+            <ul>
+                
+                    <li><a href="http://pathway.yeastgenome.org/YEAST/new-image?type=PATHWAY&amp;object=GLUCFERMEN-PWY&amp;detail-level=2">superpathway of glucose fermentation</a></li>
+                
+            </ul>
+        </div>
+    </section>
+    
+
+<!-- Phenotype
+================================================== -->
+    
+    <section id="phenotype">
+        <a href="/locus/S000005901/phenotype" class="details-link">Phenotype Details <i class="fa fa-chevron-circle-right"></i></a>
+        <h2>Phenotype
+            <a href="#" data-dropdown="phenotype_info"><i class="fa fa-info-circle"></i></a>
+
+            <p id="phenotype_info" class="f-dropdown content medium" data-dropdown-content>
+                Phenotype annotations for a gene are curated single mutant phenotypes that require an observable
+                (e.g., "cell shape"), a qualifier (e.g., "abnormal"), a mutant type (e.g., null), strain background,
+                and a reference. In addition, annotations are classified as classical genetics or high-throughput
+                (e.g., large scale survey, systematic mutation set). Whenever possible, allele information and
+                additional details are provided. Click "Phenotype Details" to view all phenotype annotations and
+                evidence for this locus as well as phenotypes it shares with other genes.
+            </p>
+        </h2>
+        <hr />
+        
+            <dl class="key-value">
+                <dt>Summary</dt>
+                <dd>Non-esseential gene; null mutants have abnormal vacuolar morphology, decreased respiratory growth, decreased growth on galactose and ribose, increased lifespan, are sensitive to oleic acid and to oxidative stress, and are resistant to the allergen nickel sulfate
+</dd>
+            </dl>
+        
+        <div class="">
+            
+                
+                <div class="panel">
+                    <h3>Classical Genetics</h3>
+                    <dl class="key-value">
+                        
+                            <dt>null</dt>
+                            <dd><ul style="list-style-type:disc">
+                                
+                                     <li><a href="/phenotype/increased_chemical_compound_accumulation">chemical compound accumulation: increased</a></li>
+                                
+                                     <li><a href="/phenotype/decreased_oxidative_stress_resistance">oxidative stress resistance: decreased</a></li>
+                                
+                                     <li><a href="/phenotype/decreased_utilization_of_carbon_source">utilization of carbon source: decreased</a></li>
+                                
+                                     <li><a href="/phenotype/normal_utilization_of_carbon_source">utilization of carbon source: normal</a></li>
+                                
+                            </ul></dd>
+                        
+                    </dl>
+                </div>
+                
+
+                
+                <div class="panel">
+                    <dl class="key-value">
+                        <h3>Large-scale Survey</h3>
+                        
+                            <dt>null</dt>
+                            <dd><ul style="list-style-type:disc">
+                                
+                                     <li><a href="/phenotype/decreased_cell_death">cell death: decreased</a></li>
+                                
+                                     <li><a href="/phenotype/increased_chronological_lifespan">chronological lifespan: increased</a></li>
+                                
+                                     <li><a href="/phenotype/decreased_competitive_fitness">competitive fitness: decreased</a></li>
+                                
+                                     <li><a href="/phenotype/increased_competitive_fitness">competitive fitness: increased</a></li>
+                                
+                                     <li><a href="/phenotype/decreased_resistance_to_chemicals">resistance to chemicals: decreased</a></li>
+                                
+                                     <li><a href="/phenotype/increased_resistance_to_chemicals">resistance to chemicals: increased</a></li>
+                                
+                                     <li><a href="/phenotype/decreased_rate_utilization_of_carbon_source">utilization of carbon source: decreased rate</a></li>
+                                
+                                     <li><a href="/phenotype/abnormal_vacuolar_morphology">vacuolar morphology: abnormal</a></li>
+                                
+                                     <li><a href="/phenotype/viable">viable</a></li>
+                                
+                            </ul></dd>
+                        
+                    </dl>
+                </div>
+                
+            
+        </div>
+    </section>
+    
+<!-- Disease
+================================================== -->
+    
+<!-- Interaction
+================================================== -->
+    
+    <section id="interaction">
+        <a href="/locus/S000005901/interaction" class="details-link">Interaction Details <i class="fa fa-chevron-circle-right"></i></a>
+        <h2>Interaction
+            <a href="#" data-dropdown="interaction_info"><i class="fa fa-info-circle"></i></a>
+
+            <p id="interaction_info" class="f-dropdown content medium" data-dropdown-content>
+                Interaction annotations are curated by <a href="http://thebiogrid.org/">BioGRID</a> and include physical
+                or genetic interactions observed
+                between at least two genes. An interaction annotation is composed of the interaction type, name of the
+                interactor, assay type (e.g., Two-Hybrid), annotation type (e.g., manual or high-throughput), and a
+                reference, as well as other experimental details. Click "Interaction Details" to view all interaction
+                annotations and evidence for this locus, including an interaction visualization.
+            </p>
+        </h2>
+        <hr />
+        <div class="">
+            
+
+            
+                <p><a href="/locus/S000005901/interaction#annotations">71</a> total interactions for 65 unique genes</p>
+
+                
+                <div class="panel">
+                    <h3>Physical Interactions</h3>
+                    <ul>
+                        
+                            <li>Affinity Capture-MS: 22</li>
+                        
+                            <li>Affinity Capture-RNA: 4</li>
+                        
+                            <li>Affinity Capture-Western: 1</li>
+                        
+                    </ul>
+                </div>
+                
+
+                
+                <div class="panel">
+                    <h3>Genetic Interactions</h3>
+                    <ul>
+                        
+                            <li>Negative Genetic: 31</li>
+                        
+                            <li>Phenotypic Enhancement: 1</li>
+                        
+                            <li>Phenotypic Suppression: 2</li>
+                        
+                            <li>Positive Genetic: 8</li>
+                        
+                            <li>Synthetic Growth Defect: 2</li>
+                        
+                    </ul>
+                </div>
+                
+            
+        </div>
+    </section>
+    
+
+<!-- Regulation
+================================================== -->
+    
+    <section id="regulation">
+        <a href="/locus/S000005901/regulation" class="details-link">Regulation Details <i class="fa fa-chevron-circle-right"></i></a>
+        <h2>Regulation
+            <a href="#" data-dropdown="regulation_info"><i class="fa fa-info-circle"></i></a>
+
+            <p id="regulation_info" class="f-dropdown content medium" data-dropdown-content>
+                The number of putative Regulators (genes that regulate it) and Targets (genes it regulates) for the
+                given locus, based on experimental evidence. This evidence includes data generated through
+                high-throughput techniques. Click "Regulation Details" to view all regulation annotations, shared GO
+                enrichment among regulation Targets, and a regulator/target diagram for the locus.
+            </p>
+        </h2>
+        <hr />
+        <div class="">
+            <div class="">
+                
+                    <dl class="key-value">
+                         <dt>Regulators</dt>
+                         <dd>
+                             
+                                <a href="/locus/S000005901/regulation#regulators">17</a>
+                             
+                         </dd>
+
+                         <dt>Targets</dt>
+                         <dd>
+                            
+                                0
+                            
+                         </dd>
+                    </dl>
+                
+            </div>
+        </div>
+    </section>
+    
+
+<!-- Expression
+================================================== -->
+    
+    <section id="expression">
+        <a href="/locus/S000005901/expression" class="details-link">Expression Details <i class="fa fa-chevron-circle-right"></i></a>
+        <h2>Expression
+            <a href="#" data-dropdown="expression_info"><i class="fa fa-info-circle"></i></a>
+
+            <p id="expression_info" class="f-dropdown content medium" data-dropdown-content>
+                Expression data are derived from records contained in the
+                <a href="http://www.ncbi.nlm.nih.gov/geo/">Gene Expression Omnibus (GEO)</a>, and are first log2
+                transformed and normalized. Referenced datasets may contain one or more condition(s), and as a result
+                there may be a greater number of conditions than datasets represented in a single clickable histogram
+                bar. The histogram division at 0.0 separates the down-regulated (green) conditions and datasets from
+                those that are up-regulated (red). Click "Expression Details" to view all expression annotations and
+                details for this locus, including a visualization of genes that share a similar expression pattern.
+            </p>
+        </h2>
+        <hr />
+        <div class="">
+            <div id="two_channel_expression_chart" class="panel"></div>
+        </div>
+    </section>
+    
+
+<!-- Paragraph
+================================================== -->
+    
+    <section id="paragraph">
+        <h2>Summary Paragraph
+            <a href="#" data-dropdown="paragraph_info"><i class="fa fa-info-circle"></i></a>
+
+            <p id="paragraph_info" class="f-dropdown content medium" data-dropdown-content>
+                A summary of the locus, written by SGD Biocurators following a thorough review of the literature. Links
+                to gene names and curated GO terms are included within the Summary Paragraphs.
+            </p>
+        </h2>
+        <hr />
+        <div class="">
+            <div id="summary_paragraph"></div>
+            <p>Last Updated: 2009-08-14</p>
+        </div>
+    </section>
+        
+<!-- Literature
+================================================== -->
+    
+    <section id="literature">
+        <a href="/locus/S000005901/literature" class="details-link">Literature Details <i class="fa fa-chevron-circle-right"></i></a>
+        <h2>Literature
+            <a href="#" data-dropdown="literature_info"><i class="fa fa-info-circle"></i></a>
+
+            <p id="literature_info" class="f-dropdown content medium" data-dropdown-content>
+                All manually curated literature for the specified gene, organized into topics according to their
+                relevance to the gene (Primary Literature, Additional Literature, or Review). Click "Literature Details"
+                to view all literature information for this locus, including shared literature between genes.
+            </p>
+        </h2>
+        <hr />
+        <div class="">
+            <div class="">
+                
+                    <dl class="key-value">
+                        <dt>Primary</dt>
+                        
+                            <dd><a href="/locus/S000005901/literature#primary">39</a></dd>
+                        
+
+                        <dt>Additional</dt>
+                        
+                            <dd><a href="/locus/S000005901/literature#additional">120</a></dd>
+                        
+
+                        <dt>Reviews</dt>
+                        
+                            <dd><a href="/locus/S000005901/literature#reviews">16</a></dd>
+                        
+                    </dl>
+                
+            </div>
+        </div>
+    </section>
+    
+
+<!-- History
+================================================== -->
+    <div id="history_target">
+    </div>
+
+<!-- References
+================================================== -->
+    <section id="reference">
+    </section>
+
+    <!-- Resources
+================================================== -->
+    
+    <section id="resources">
+        <h2>Resources</h2>
+        <hr />
+        <div class="panel">
+            <p>
+                
+                    <a href="http://www.expasy.org/enzyme/1.2.1.5" target="_blank">E.C.1.2.1.5</a> | 
+                
+                    <a href="http://www.ncbi.nlm.nih.gov/gene/854556" target="_blank">Entrez Gene</a> | 
+                
+                    <a href="http://www.ncbi.nlm.nih.gov:80/entrez/viewer.fcgi?val=NP_015019.1" target="_blank">Entrez RefSeq Protein</a> | 
+                
+                    <a href="http://fungidb.org/fungidb/app/record/gene/YOR374W" target="_blank">FungiDB</a> | 
+                
+                    <a href="http://www.ncbi.nlm.nih.gov/gquery/gquery.fcgi?&amp;term=%28YOR374W%5bTEXT%3anoexp%5d%20AND%20cerevisiae%5bALL%5d%29" target="_blank">Search all NCBI</a> | 
+                
+                    <a href="http://www.uniprot.org/uniparc/UPI000004F972" target="_blank">UniParc</a> | 
+                
+                    <a href="http://www.uniprot.org/uniprot/P46367" target="_blank">UniProtKB</a>
+                
+            </p>
+        </div>
+    </section>
+    
+    </div>
+</div>
+
+	    	<div id="layout-document-footer-pusher"><!-- keep empty --></div>
+	    </div>
+	    
+		<footer id="layout-document-footer" class="page-footer">
+	<div class="row">
+		<div class="small-6 large-6 columns">
+			<ul id="footer-links">
+				<li class="sgd-link"><a href="http://www.yeastgenome.org">SGD</a></li>
+				<li><a class="hide-external-link-icon" target="_blank" href="https://sites.google.com/view/yeastgenome-help/about"><span>About</span></a></li>
+				<li><a href="http://www.yeastgenome.org/blog"><span>Blog</span></a></li>
+				<li><a class="hide-external-link-icon" target="_blank" href="https://sites.google.com/view/yeastgenome-help/sgd-general-help"><span>Help</span></a></li>
+				<li><a class="hide-external-link-icon" target="_blank" href="http://www.stanford.edu/site/privacy"><span>Privacy Policy</span></a></li>
+				<li><a rel="license" class="hide-external-link-icon" target="_blank" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a></li>
+				<li id="social-footer">
+					<ul class="social-links">
+						<li><a href="/cgi-bin/suggestion" target="_blank" id="email-footer" class="webicon mail small">Email Us</a></li>
+						<li><a href="http://twitter.com/#!/yeastgenome" target="_blank" id="twitter-footer" class="webicon twitter small">Twitter</a></li>
+						<li><a href="https://www.facebook.com/pages/Saccharomyces-Genome-Database-SGD/139140876128200" target="_blank" class="webicon facebook small" id="facebook-footer">Facebook</a></li>
+						<li><a href="https://www.linkedin.com/company/saccharomyces-genome-database" target="_blank" class="webicon linkedin small" id="linkedin-footer">LinkedIn</a></li>
+						<li><a href="https://www.youtube.com/SaccharomycesGenomeDatabase" target="_blank" id="youtube-footer" class="webicon youtube small">YouTube</a></li>
+					</ul>
+				</li>
+			</ul>
+			<div id="copyright">&copy; Stanford University, Stanford, CA 94305.</div>
+		</div>
+		<div class="small-6 large-6 columns">
+			<ul class="logo-list">
+				<li>
+					<a href="http://www.alliancegenome.org">
+						<img width="180" src="https://d1x6jdqbvd5dr.cloudfront.net/00c2e41b935709e325a1/img/agr_logo.png" id="agr-logo">
+					</a>
+				</li>
+				<li><a href="http://genetics.stanford.edu">
+					<img height="45" width="102" src="https://d1x6jdqbvd5dr.cloudfront.net/00c2e41b935709e325a1/img/genetics-logo@2x.png" id="genetics-logo">
+				</a></li>
+				<li><a href="http://med.stanford.edu">
+					<img height="45" width="39" src="https://d1x6jdqbvd5dr.cloudfront.net/00c2e41b935709e325a1/img/som-logo@2x.png" id="som-logo">
+				</a></li>
+				<li><a href="http://www.stanford.edu"><img height="49" width="105" src="https://d1x6jdqbvd5dr.cloudfront.net/00c2e41b935709e325a1/img/footer-stanford-logo@2x.png" id="stanford-logo"></a></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+	</div>
+
+	<!-- Le javascript -->
+	<!-- Placed at the end of the document so the pages load faster -->
+
+	<!-- load jquery from google, with fallback to local copy -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="https://d1x6jdqbvd5dr.cloudfront.net/00c2e41b935709e325a1/js/build/jquery.min.js"><\/script>')</script>
+	<script>window.ASSET_ROOT = "https://d1x6jdqbvd5dr.cloudfront.net/00c2e41b935709e325a1";</script>
+	<script src="https://d1x6jdqbvd5dr.cloudfront.net/00c2e41b935709e325a1/js/application.js"></script>
+
+<script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-440742-1', 'yeastgenome.org');
+ ga('send', 'pageview');
+
+</script>
+
+
+<script>
+    views.summary.render();
+</script>
+
+
+</body>
+</html>
